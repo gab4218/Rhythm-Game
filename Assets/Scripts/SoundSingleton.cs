@@ -43,12 +43,12 @@ public class SoundSingleton : MonoBehaviour
 
     public void Miss()
     {
-        sfxSource.PlayOneShot(missSound, 1);
+        //sfxSource.PlayOneShot(missSound, 1);
     }
 
     public void Death()
     {
-        sfxSource.PlayOneShot(deathSound, 1);
+        //sfxSource.PlayOneShot(deathSound, 1);
         StartCoroutine(DeathMusicFade());
     }
 
@@ -60,7 +60,7 @@ public class SoundSingleton : MonoBehaviour
         
         while (t < 1)
         {
-            musicSource.pitch = Mathf.Lerp(op, op - 20, t);
+            musicSource.pitch = Mathf.Lerp(op, 0, t);
             musicSource.volume = Mathf.Lerp(v, 0, t);
             t += Time.deltaTime;
             yield return null;

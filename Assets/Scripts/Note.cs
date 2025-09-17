@@ -17,8 +17,14 @@ public abstract class Note : MonoBehaviour
         EventManager.TriggerEvent(EventType.Miss);
     }
 
-    public void OnDelete()
+    private void Start()
     {
+        EventManager.Subscribe(EventType.Death, Death);
+    }
 
+
+    private void Death()
+    {
+        speed = 0;
     }
 }

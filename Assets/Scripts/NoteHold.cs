@@ -2,8 +2,7 @@ public class NoteHold : Note, IHittable
 {
     public void OnHit()
     {
-        EventManager.TriggerEvent(EventType.Hit);
-        Destroy(gameObject);
+        return;
     }
 
     public void OnHold()

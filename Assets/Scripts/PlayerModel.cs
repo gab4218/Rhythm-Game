@@ -6,6 +6,7 @@ public class PlayerModel
     private Transform[] _lanePositions;
     private float _noteDetectionRange;
 
+    private UnityEngine.UI.Image _hpImage;
     public event System.Action onSwitchLane, onMiss, onHitNote;
 
     private float _iFrames;
@@ -17,11 +18,13 @@ public class PlayerModel
     private int _currentLane = 0;
     private int _lastLane = 0;
     private Ray _ray;
+    private float _originalHeight;
 
-    public PlayerModel(Transform transform, Transform[] lanePositions, float iFrames = 0.5f, float laneInterpolationSpeed = 10,float maxHP = 1f, float noteDetectionRange = 2f)
+    public PlayerModel(Transform transform, Transform[] lanePositions, UnityEngine.UI.Image img, float iFrames = 0.5f, float laneInterpolationSpeed = 10,float maxHP = 1f, float noteDetectionRange = 2f)
     {
         _transform = transform;
         _lanePositions = lanePositions;
+        _hpImage = img;
         _iFrames = iFrames;
         _laneLerpSpeed = laneInterpolationSpeed;
         _maxHealth = maxHP;
@@ -29,6 +32,7 @@ public class PlayerModel
         _noteDetectionRange = noteDetectionRange;
         EventManager.Subscribe(EventType.Miss, MissNote);
         EventManager.Subscribe(EventType.Hit, Hit);
+        _originalHeight = _hpImage.rectTransform.sizeDelta.y;
         
     }
 
@@ -37,6 +41,8 @@ public class PlayerModel
     {
         float t = 1f - Mathf.Pow(0.2f, Time.deltaTime * _laneLerpSpeed);
         _transform.SetPositionAndRotation(Vector3.Lerp(_transform.position, _lanePositions[_currentLane].position, t), Quaternion.Lerp(_transform.rotation, _lanePositions[_currentLane].rotation, t));
+        _hpImage.rectTransform.sizeDelta = new Vector2 (_hpImage.rectTransform.sizeDelta.x, health / _maxHealth * _originalHeight);
+
     }
 
     public void PressHit()
@@ -94,8 +100,7 @@ public class PlayerModel
 
     public void MissNote()
     {
-        health -= 0.1f;
-        Debug.Log("miss");
+        health -= 0.05f;
         onMiss?.Invoke();
         if (health <= 0)
         {

@@ -17,13 +17,14 @@ public class PlayerControllerPC : IController
         
         if ((Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.J)) && _holding)
         {
+
             _model.ReleaseHit();
             _holding = false;
         }
 
         if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.J)) && !_holding)
         {
-            _model.SwitchLane(Input.GetAxisRaw("Horizontal"));
+            //_model.SwitchLane(Input.GetAxisRaw("Horizontal"));
             _model.PressHit();
             _holding = true;
         }

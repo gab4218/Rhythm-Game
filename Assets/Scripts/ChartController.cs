@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChartController : MonoBehaviour
 {
@@ -7,7 +8,9 @@ public class ChartController : MonoBehaviour
 
     public static ChartController instance;
 
+    private float _ts, t;
 
+    private Coroutine _cr;
 
     private void Awake()
     {
@@ -24,7 +27,8 @@ public class ChartController : MonoBehaviour
     {
         EventManager.Subscribe(EventType.Death, EndChart);
         SoundSingleton.instance?.SetMusic(selectedChart.song);
-        StartCoroutine(ChartReader());
+        _cr = StartCoroutine(ChartReader());
+        _ts = Time.timeScale;
     }
 
     private IEnumerator ChartReader()
@@ -34,14 +38,20 @@ public class ChartController : MonoBehaviour
             yield return new WaitForSeconds(nData.delayFromLast);
             Note note = Instantiate(nData.note, GameManager.instance.lanes[nData.lane].position, GameManager.instance.lanes[nData.lane].rotation);
             note.speed = nData.noteSpeed;
-            Debug.Log("hate");
+            //Debug.Log("hate");
         }
 
     }
 
     public void EndChart()
     {
-        Debug.Log("dead");
+        StopCoroutine(_cr);
+        Invoke("Reload", 4f);
+    }
+
+    public void Reload()
+    {
+        SceneManager.LoadScene(1);
     }
 
 }
