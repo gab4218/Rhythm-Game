@@ -13,6 +13,10 @@ public class PlayerControllerPC : IController
     public void OnUpdate()
     {
         if (_model == null) return;
+
+        
+
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow)) _model.SwitchLane(Input.GetAxisRaw("Horizontal"));
         
         if ((Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.J)) && _holding)
@@ -28,7 +32,9 @@ public class PlayerControllerPC : IController
             _model.PressHit();
             _holding = true;
         }
+#elif UNITY_ANDROID
 
+#endif
         if (_holding)
         {
             _model.HoldHit();
