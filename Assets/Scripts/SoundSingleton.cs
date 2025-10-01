@@ -21,7 +21,6 @@ public class SoundSingleton : MonoBehaviour
         {
             instance = this;
         }
-        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
@@ -29,6 +28,7 @@ public class SoundSingleton : MonoBehaviour
         EventManager.Subscribe(EventType.Hit, Hit);
         EventManager.Subscribe(EventType.Miss, Miss);
         EventManager.Subscribe(EventType.Death, Death);
+        EventManager.Subscribe(EventType.End, End);
     }
 
     public void Button()
@@ -36,20 +36,29 @@ public class SoundSingleton : MonoBehaviour
         sfxSource.PlayOneShot(button, 1);
     }
 
-    public void Hit()
+    public void Hit(params object[] paramContainer)
     {
         sfxSource.PlayOneShot(hitSound, 1);
     }
 
-    public void Miss()
+    public void Miss(params object[] paramContainer)
     {
         //sfxSource.PlayOneShot(missSound, 1);
     }
 
-    public void Death()
+    public void Death(params object[] paramContainer)
     {
         //sfxSource.PlayOneShot(deathSound, 1);
         StartCoroutine(DeathMusicFade());
+        End();
+    }
+
+    private void End(params object[] paramContainer)
+    {
+        EventManager.Unsubscribe(EventType.Hit, Hit);
+        EventManager.Unsubscribe(EventType.Miss, Miss);
+        EventManager.Unsubscribe(EventType.Death, Death);
+        EventManager.Unsubscribe(EventType.End, End);
     }
 
     private IEnumerator DeathMusicFade()

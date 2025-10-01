@@ -8,11 +8,12 @@ public class Chart : ScriptableObject
     public AudioClip song;
     public float bpm;
     public int score = 0;
+    public int combo = 0;
     public bool completed = false;
-
     public void ResetChartData()
     {
         completed = false;
         score = 0;
+        combo = 0;
     }
 }

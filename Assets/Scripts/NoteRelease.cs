@@ -2,7 +2,7 @@ public class NoteRelease : Note, IHittable
 {
     public void OnHit()
     {
-        return;
+        EventManager.TriggerEvent(EventType.Miss);
     }
 
     public void OnHold()
@@ -12,7 +12,7 @@ public class NoteRelease : Note, IHittable
 
     public void OnRelease()
     {
-        EventManager.TriggerEvent(EventType.Hit);
+        EventManager.TriggerEvent(EventType.Hit, points);
         Destroy(gameObject);
     }
 }

@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    
+
     public void ResetAll()
     {
         foreach (Chart chart in allCharts)

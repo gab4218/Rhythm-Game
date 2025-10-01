@@ -5,24 +5,30 @@ public enum EventType
 {
     Hit,
     Miss,
-    Death
+    Death,
+    End
 }
 
 public class EventManager
 {
-    public delegate void EventListener();
+    public delegate void EventListener(params object[] paramContainer);
 
     static Dictionary<EventType, EventListener> _events;
 
+
     public static void Subscribe(EventType type, EventListener listener)
     {
-        if (_events == null) _events = new Dictionary<EventType, EventListener>();
+        if (_events == null)
+        {
+            _events = new Dictionary<EventType, EventListener>();
+            //Subscribe(EventType.Death, ClearEvents);
+        }
 
         if (!_events.ContainsKey(type))
         {
             _events.Add(type, null);
         }
-        Debug.Log("ouch");
+        //Debug.Log("ouch");
         _events[type] += listener;
     }
 
@@ -37,9 +43,9 @@ public class EventManager
 
     }
 
-    public static void TriggerEvent(EventType type)
+    public static void TriggerEvent(EventType type, params object[] paramContainer)
     {
-        if (_events == null)
+        if (_events == null || _events.Keys.Count == 0)
         {
             Debug.Log("no events");
             return;
@@ -49,9 +55,20 @@ public class EventManager
         {
             if (_events[type] != null)
             {
-                _events[type]();
+                _events[type](paramContainer);
             }
         }
     }
+
+    public static void TriggerEvent(EventType type)
+    {
+        TriggerEvent(type, null);
+    }
+
+    //public static void ClearEvents(params object[] paramContainer)
+    //{
+    //    _events.Clear();
+    //    Subscribe(EventType.Death, ClearEvents);
+    //}
 
 }

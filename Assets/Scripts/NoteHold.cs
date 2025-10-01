@@ -7,7 +7,7 @@ public class NoteHold : Note, IHittable
 
     public void OnHold()
     {
-        EventManager.TriggerEvent(EventType.Hit);
+        EventManager.TriggerEvent(EventType.Hit, points);
         Destroy(gameObject);
     }
 

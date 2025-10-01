@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    [SerializeField] private float _shakeStrength = 0.2f;
+    [SerializeField] private float _shakeLength = 0.25f;
     public static CameraController instance;
     private Coroutine _shakeCR;
     private Vector3 _originalPos;
@@ -22,16 +24,27 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
+        _shakeCR = null;
         EventManager.Subscribe(EventType.Miss, Shake);
+        EventManager.Subscribe(EventType.Death, Unsub);
+        EventManager.Subscribe(EventType.End, Unsub);
     }
 
-    public void Shake()
+
+    public void Shake(params object[] paramContainer)
     {
         if (_shakeCR != null)
         {
             StopCoroutine(_shakeCR);
         }
-        _shakeCR = StartCoroutine(DoShake(0.25f, 0.2f));
+        _shakeCR = StartCoroutine(DoShake(_shakeStrength, _shakeLength));
+    }
+
+    private void Unsub(params object[] paramContainer)
+    {
+        EventManager.Unsubscribe(EventType.Miss, Shake);
+        EventManager.Unsubscribe(EventType.Death, Unsub);
+        EventManager.Unsubscribe(EventType.End, Unsub);
     }
 
     private IEnumerator DoShake(float intensity, float duration)

@@ -2,7 +2,7 @@ public class NotePress : Note, IHittable
 {
     public void OnHit()
     {
-        EventManager.TriggerEvent(EventType.Hit);
+        EventManager.TriggerEvent(EventType.Hit, points);
         Destroy(gameObject);
     }
 
