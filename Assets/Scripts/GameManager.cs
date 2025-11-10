@@ -1,11 +1,13 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public Chart[] allCharts;
     public Transform[] lanes;
     public PlayerModel player;
+
+
 
     private void Awake()
     {
@@ -21,11 +23,5 @@ public class GameManager : MonoBehaviour
 
     
 
-    public void ResetAll()
-    {
-        foreach (Chart chart in allCharts)
-        {
-            chart.ResetChartData();
-        }
-    }
+    
 }

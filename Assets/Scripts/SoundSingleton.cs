@@ -71,7 +71,7 @@ public class SoundSingleton : MonoBehaviour
         {
             musicSource.pitch = Mathf.Lerp(op, 0, t);
             musicSource.volume = Mathf.Lerp(v, 0, t);
-            t += Time.deltaTime;
+            t += Time.unscaledDeltaTime;
             yield return null;
         }
 

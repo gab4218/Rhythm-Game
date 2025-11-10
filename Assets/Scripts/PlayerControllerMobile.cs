@@ -33,41 +33,70 @@ public class PlayerControllerMobile : IController
     {
         if (_model == null) return;
         if (Input.touchCount == 0) return;
-
+        bool foundRight = false;
+        bool foundLeft = false;
 
         foreach (Touch t in Input.touches)
         {
-            if (t.position.x > _changeThreshold)
+
+            if (_inverted)
             {
-                _rightTouch = t;
+                if (t.position.x < _changeThreshold)
+                {
+                    _rightTouch = t;
+                    foundRight = true;
+                }
+                else
+                {
+                    _leftTouch = t;
+                    foundLeft = true;
+                }
             }
             else
             {
-                _leftTouch = t;
+                if (t.position.x > _changeThreshold)
+                {
+                    _rightTouch = t;
+                    foundRight = true;
+                }
+                else
+                {
+                    _leftTouch = t;
+                    foundLeft = true;
+                }
+
             }
         }
-        if (_rightTouch.phase == TouchPhase.Began)
+        Debug.Log(_leftTouch.position.x);
+
+        if(foundRight)
         {
-            _model.PressHit();
-            _holding = true;
-        } 
-        else if (_rightTouch.phase == TouchPhase.Ended || _rightTouch.phase == TouchPhase.Canceled)
-        {
-            _model.ReleaseHit();
-            _holding = false;
+            if (_rightTouch.phase == TouchPhase.Began)
+            {
+                _model.PressHit();
+                _holding = true;
+            } 
+            else if (_rightTouch.phase == TouchPhase.Ended || _rightTouch.phase == TouchPhase.Canceled)
+            {
+                _model.ReleaseHit();
+                _holding = false;
+            }
+            if (_holding)
+            {
+                _model.HoldHit();
+            }
         }
-        if (_holding)
+        if (foundLeft)
         {
-            _model.HoldHit();
-        }
-        if (_leftTouch.phase == TouchPhase.Began)
-        {
-            _swipeData.StartSwipe(_leftTouch.position);
-        }
-        else if (_leftTouch.phase == TouchPhase.Ended || _leftTouch.phase == TouchPhase.Canceled)
-        {
-            _swipeData.EndSwipe(_leftTouch.position);
-            _model.SwitchLane(_swipeData.direction.x);
+            if (_leftTouch.phase == TouchPhase.Began)
+            {
+                _swipeData.StartSwipe(_leftTouch.position);
+            }
+            else if (_leftTouch.phase == TouchPhase.Ended || _leftTouch.phase == TouchPhase.Canceled)
+            {
+                _swipeData.EndSwipe(_leftTouch.position);
+                _model.SwitchLane(_swipeData.direction.x);
+            }
         }
 
     }

@@ -1,3 +1,4 @@
+using Unity.Services.RemoteConfig;
 using UnityEngine;
 
 public class PlayerModel
@@ -16,6 +17,7 @@ public class PlayerModel
     private int _currentLane = 0;
     private Ray _ray;
     private float _originalHeight;
+    private bool _godmode;
 
     public PlayerModel(Transform transform, Transform[] lanePositions, UnityEngine.UI.Image img)
     {
@@ -26,6 +28,7 @@ public class PlayerModel
         EventManager.Subscribe(EventType.Hit, Hit);
         EventManager.Subscribe(EventType.Death, Unsub);
         EventManager.Subscribe(EventType.End, Unsub);
+        RemoteConfigService.Instance.FetchCompleted += GodModeCheck;
         _originalHeight = _hpImage.rectTransform.sizeDelta.y;
     }
 
@@ -143,6 +146,15 @@ public class PlayerModel
         else if (dir < 0)
         {
             _currentLane = _currentLane == 0? (_lanePositions.Length - 1) : (_currentLane - 1);
+        }
+    }
+
+    private void GodModeCheck(ConfigResponse configResponse)
+    {
+        _godmode = RemoteConfigService.Instance.appConfig.GetBool("DevMode");
+        if (_godmode)
+        {
+            EventManager.Unsubscribe(EventType.Miss, MissNote);
         }
     }
 

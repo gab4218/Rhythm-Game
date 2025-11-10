@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ee00d1bb8ea9474db9903a08fea9ec1, type: 3}
-  m_Name: StChroma
+  m_Name: St. Chroma
   m_EditorClassIdentifier: 
   notes:
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
@@ -2568,4 +2568,6 @@ MonoBehaviour:
   song: {fileID: 8300000, guid: 0680e3c140360cb42802c60b1d66c058, type: 3}
   bpm: 0
   score: 0
+  combo: 0
+  percent: 0
   completed: 0

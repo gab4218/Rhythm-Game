@@ -32,17 +32,17 @@ public abstract class Note : MonoBehaviour
         EventManager.TriggerEvent(EventType.Miss);
     }
 
-    private void Start()
-    {
-        EventManager.Subscribe(EventType.Death, End);
-        EventManager.Subscribe(EventType.End, End);
-    }
-
-
-    private void End(params object[] paramContainer)
-    {
-        speed = 0;
-        EventManager.Unsubscribe(EventType.Death, End);
-        EventManager.Unsubscribe(EventType.End, End);
-    }
+    //private void Start()
+    //{
+    //    EventManager.Subscribe(EventType.Death, End);
+    //    EventManager.Subscribe(EventType.End, End);
+    //}
+    //
+    //
+    //private void End(params object[] paramContainer)
+    //{
+    //    speed = 0;
+    //    EventManager.Unsubscribe(EventType.Death, End);
+    //    EventManager.Unsubscribe(EventType.End, End);
+    //}
 }

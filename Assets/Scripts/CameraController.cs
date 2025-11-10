@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.Services.RemoteConfig;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -8,7 +9,7 @@ public class CameraController : MonoBehaviour
     public static CameraController instance;
     private Coroutine _shakeCR;
     private Vector3 _originalPos;
-
+    private bool _godmode;
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -25,12 +26,21 @@ public class CameraController : MonoBehaviour
     private void Start()
     {
         _shakeCR = null;
+
         EventManager.Subscribe(EventType.Miss, Shake);
         EventManager.Subscribe(EventType.Death, Unsub);
         EventManager.Subscribe(EventType.End, Unsub);
+        RemoteConfigService.Instance.FetchCompleted += GodModeCheck;
     }
 
-
+    private void GodModeCheck(ConfigResponse configResponse)
+    {
+        _godmode = RemoteConfigService.Instance.appConfig.GetBool("DevMode");
+        if (_godmode)
+        {
+            EventManager.Unsubscribe(EventType.Miss, Shake);
+        }
+    }
     public void Shake(params object[] paramContainer)
     {
         if (_shakeCR != null)

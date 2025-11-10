@@ -40,7 +40,6 @@ public class EventManager
         {
             _events[type] -= listener;
         }
-
     }
 
     public static void TriggerEvent(EventType type, params object[] paramContainer)

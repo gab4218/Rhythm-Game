@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"770058f2-2132-4113-9848-3636c7d45b88\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DevMode\",\r\n      \"type\": \"bool\",\r\n     
+    \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"aad19d49-5d3a-4b9a-b7e4-e5cf99f0e322\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"BaseSkinCost\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"cfcabd2d-56d0-4709-95f9-0393a8eff045\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"ShowEditorButton\",\r\n      \"type\":
+    \"bool\",\r\n      \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"06c988e1-c4b0-49c3-be50-fc919beb237b\"\r\n    },\r\n   
+    \"rs\": {\r\n      \"key\": \"PlaybackSpeed\",\r\n      \"type\": \"float\",\r\n     
+    \"value\": 1.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"ffc93740-44e3-4ffa-9f3f-2941bcd165f0\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"MirroredMobileControls\",\r\n      \"type\": \"bool\",\r\n      \"value\":
+    false\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"770058f2-2132-4113-9848-3636c7d45b88\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DevMode\",\r\n      \"type\": \"bool\",\r\n     
+    \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"aad19d49-5d3a-4b9a-b7e4-e5cf99f0e322\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"BaseSkinCost\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"cfcabd2d-56d0-4709-95f9-0393a8eff045\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"ShowEditorButton\",\r\n      \"type\":
+    \"bool\",\r\n      \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"06c988e1-c4b0-49c3-be50-fc919beb237b\"\r\n    },\r\n   
+    \"rs\": {\r\n      \"key\": \"PlaybackSpeed\",\r\n      \"type\": \"float\",\r\n     
+    \"value\": 1.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"ffc93740-44e3-4ffa-9f3f-2941bcd165f0\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"MirroredMobileControls\",\r\n      \"type\": \"bool\",\r\n      \"value\":
+    false\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"72a91fa6-31a2-4b9e-b50b-04a9d03019a9\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"a01eac3a-151c-4712-97bc-5f2114b60b9e\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2025-10-02T21:29:11Z\",\r\n    \"updatedAt\":
+    \"2025-10-02T21:29:11Z\"\r\n  },\r\n  {\r\n    \"projectId\": \"72a91fa6-31a2-4b9e-b50b-04a9d03019a9\",\r\n   
+    \"name\": \"dev\",\r\n    \"id\": \"70801a60-05da-4843-9ecf-fe43e26b0f40\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2025-10-03T00:03:42Z\",\r\n   
+    \"updatedAt\": \"2025-10-03T00:03:42Z\"\r\n  }\r\n]"
