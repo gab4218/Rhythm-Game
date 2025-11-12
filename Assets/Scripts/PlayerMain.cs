@@ -7,6 +7,7 @@ public class PlayerMain : MonoBehaviour
     private IController _controller;
     private bool _inverted = false;
     [SerializeField] private Transform[] _lanes;
+    [SerializeField] private Animator _anim;
     [SerializeField] private UnityEngine.UI.Image _hpImage;
     [SerializeField] private float _noteDetectionRange = 2f;
     [SerializeField] private float _health = 1f;
@@ -16,9 +17,11 @@ public class PlayerMain : MonoBehaviour
     private void Start()
     {
         _model = new PlayerModel(transform, _lanes, _hpImage).HP(_health).Range(_noteDetectionRange).LerpSpeed(_lerpSpeed);
+
         _mobileThreshold = Screen.width/2;
 #if UNITY_STANDALONE_WIN
         _controller = new PlayerControllerPC(_model);
+        
 #elif UNITY_ANDROID
         _controller = new PlayerControllerMobile(_model).SetBounds(_mobileThreshold).SetInverted(_inverted);
 #endif

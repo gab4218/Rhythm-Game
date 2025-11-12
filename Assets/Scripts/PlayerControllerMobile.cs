@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerControllerMobile : IController
 {
     private PlayerModel _model = default;
+    private PlayerView _view = default;
     private bool _holding = false;
     private bool _inverted = false;
     private float _changeThreshold = 500f;
