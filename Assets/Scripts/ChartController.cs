@@ -12,6 +12,8 @@ public class ChartController : MonoBehaviour
 
     private Coroutine _cr;
 
+    [SerializeField] private Transform _chartParent;
+
 
 
 
@@ -47,6 +49,7 @@ public class ChartController : MonoBehaviour
         {
             yield return new WaitForSeconds(nData.delayFromLast);
             Note note = Instantiate(nData.note).StartPos(GameManager.instance.lanes[nData.lane].position, GameManager.instance.lanes[nData.lane].rotation).Speed(nData.noteSpeed);
+            note.transform.SetParent(_chartParent);
         }
 
         while (SoundSingleton.instance.musicSource.time < selectedChart.song.length)

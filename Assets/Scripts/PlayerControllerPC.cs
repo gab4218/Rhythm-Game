@@ -3,11 +3,13 @@ using UnityEngine;
 public class PlayerControllerPC : IController
 {
     private PlayerModel _model;
+    private PlayerView _view;
     private bool _holding = false;
 
-    public PlayerControllerPC(PlayerModel model)
+    public PlayerControllerPC(PlayerModel model, PlayerView view)
     {
         _model = model;
+        _view = view;
     }
 
     public void OnUpdate()
@@ -16,7 +18,7 @@ public class PlayerControllerPC : IController
 
         
 
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow)) _model.SwitchLane(Input.GetAxisRaw("Horizontal"));
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow)) _model.SwitchLane(-Input.GetAxisRaw("Horizontal"));
         
         if ((Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.J)) && _holding)
         {

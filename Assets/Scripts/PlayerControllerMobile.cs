@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerControllerMobile : IController
 {
     private PlayerModel _model = default;
-    private PlayerView _view = default;
+    private PlayerView _view;
     private bool _holding = false;
     private bool _inverted = false;
     private float _changeThreshold = 500f;
@@ -12,9 +12,10 @@ public class PlayerControllerMobile : IController
     private SwipeData _swipeData;
 
 
-    public PlayerControllerMobile(PlayerModel model)
+    public PlayerControllerMobile(PlayerModel model, PlayerView view)
     {
         _model = model;
+        _view = view;
         _swipeData = new SwipeData();
     }
 
@@ -96,7 +97,7 @@ public class PlayerControllerMobile : IController
             else if (_leftTouch.phase == TouchPhase.Ended || _leftTouch.phase == TouchPhase.Canceled)
             {
                 _swipeData.EndSwipe(_leftTouch.position);
-                _model.SwitchLane(_swipeData.direction.x);
+                _model.SwitchLane(-_swipeData.direction.x);
             }
         }
 

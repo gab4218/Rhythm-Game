@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerModel
 {
     private Transform _transform;
+    private Transform _chartParent;
     private Transform[] _lanePositions;
     private float _noteDetectionRange;
 
@@ -19,10 +20,11 @@ public class PlayerModel
     private float _originalHeight;
     private bool _godmode;
 
-    public PlayerModel(Transform transform, Transform[] lanePositions, UnityEngine.UI.Image img)
+    public PlayerModel(Transform transform, Transform chartPar, Transform[] lanePositions, UnityEngine.UI.Image img)
     {
         _transform = transform;
         _lanePositions = lanePositions;
+        _chartParent = chartPar;
         _hpImage = img;
         EventManager.Subscribe(EventType.Miss, MissNote);
         EventManager.Subscribe(EventType.Hit, Hit);
@@ -31,7 +33,6 @@ public class PlayerModel
         RemoteConfigService.Instance.FetchCompleted += GodModeCheck;
         _originalHeight = _hpImage.rectTransform.sizeDelta.y;
     }
-
 
     public PlayerModel LerpSpeed(float speed = 1f)
     {
@@ -56,10 +57,7 @@ public class PlayerModel
     public void OnUpdate()
     {
         float t = 1f - Mathf.Pow(0.2f, Time.deltaTime * _laneLerpSpeed);
-        Vector3.Lerp(_transform.position, _lanePositions[_currentLane].position, t);
-
-
-        _transform.SetPositionAndRotation(Vector3.Lerp(_transform.position, _lanePositions[_currentLane].position, t), Quaternion.Lerp(_transform.rotation, _lanePositions[_currentLane].rotation, t));
+        _chartParent.SetPositionAndRotation(_chartParent.position, Quaternion.Lerp(_chartParent.rotation, _lanePositions[_currentLane].rotation, t));
         _hpImage.rectTransform.sizeDelta = new Vector2 (_hpImage.rectTransform.sizeDelta.x, health / _maxHealth * _originalHeight);
 
     }
@@ -77,7 +75,7 @@ public class PlayerModel
         }
         else
         {
-            MissNote();
+            EventManager.TriggerEvent(EventType.Miss);
         }
     }
 
