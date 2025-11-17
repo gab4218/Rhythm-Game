@@ -49,12 +49,12 @@ Material:
     - _cutDepth: 0
     - _cutDistance: 0
     - _distortionScale: 5
-    - _edgeSize: 0.23
+    - _edgeSize: 0.32
     - _glowThickness: 0
     - _noiseScale: 27.23
     m_Colors:
-    - _baseColor: {r: 1, g: 0, b: 0.11425209, a: 1}
-    - _edgeColor: {r: 1, g: 0.68235296, b: 0, a: 1}
+    - _baseColor: {r: 0.6134043, g: 0, b: 1, a: 1}
+    - _edgeColor: {r: 0, g: 0.55968523, b: 1, a: 1}
     - _fadeBoundsZ: {r: 0, g: 0, b: 0, a: 0}
     - _glowColor: {r: 1, g: 0.29948562, b: 0, a: 1}
     - _tiling: {r: 1, g: 1, b: 0, a: 0}

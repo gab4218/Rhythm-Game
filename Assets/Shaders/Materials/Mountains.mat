@@ -64,7 +64,7 @@ Material:
     - _fadeDistanceClose: {r: 41.7, g: 69.7, b: 0, a: 0}
     - _fadeDistanceFar: {r: 120, g: 150, b: 0, a: 0}
     - _lightColor: {r: 0.040583838, g: 0.1509434, b: 0.095763616, a: 1}
-    - _scrollSpeed: {r: 0, g: 0, b: 4, a: 0}
+    - _scrollSpeed: {r: 0, g: 0, b: 10, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2261023512494044026
 MonoBehaviour:
