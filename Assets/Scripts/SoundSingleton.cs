@@ -10,6 +10,8 @@ public class SoundSingleton : MonoBehaviour
     public AudioClip hitSound;
     public AudioClip missSound;
     public AudioClip deathSound;
+    public Material material;
+    private Color _startColor1, _startColor2;
 
     private void Awake()
     {
@@ -21,6 +23,8 @@ public class SoundSingleton : MonoBehaviour
         {
             instance = this;
         }
+        _startColor1 = material.GetColor("_downColor2");
+        _startColor2 = material.GetColor("_sideColor2");
     }
 
     private void Start()
@@ -38,12 +42,24 @@ public class SoundSingleton : MonoBehaviour
 
     public void Hit(params object[] paramContainer)
     {
+        sfxSource.pitch = Random.Range(0.8f, 1.2f);
         sfxSource.PlayOneShot(hitSound, 1);
+        material.SetColor("_sideColor2", Color.white);
+        material.SetColor("_downColor2", Color.white);
     }
 
     public void Miss(params object[] paramContainer)
     {
-        //sfxSource.PlayOneShot(missSound, 1);
+        sfxSource.pitch = Random.Range(0.8f, 1.2f);
+        sfxSource.PlayOneShot(missSound, 1);
+        material.SetColor("_sideColor2", Color.red);
+        material.SetColor("_downColor2", Color.red);
+    }
+
+    private void FixedUpdate()
+    {
+        material.SetColor("_downColor2", Color.Lerp(material.GetColor("_downColor2"), _startColor1, 0.2f));
+        material.SetColor("_sideColor2", Color.Lerp(material.GetColor("_sideColor2"), _startColor2, 0.2f));
     }
 
     public void Death(params object[] paramContainer)

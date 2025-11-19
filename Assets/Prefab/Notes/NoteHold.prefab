@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1482640709578918214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,12 +58,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101781374655453195}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0.0000029504295}
-  m_LocalPosition: {x: 0, y: -0.397, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 4.360993}
+  m_LocalRotation: {x: -0.70710707, y: 0.0000020862694, z: -0.70710653, w: 0.0000020862678}
+  m_LocalPosition: {x: 0, y: 0.00037309155, z: 0}
+  m_LocalScale: {x: 0.012668617, y: 0.012668617, z: 0.012668616}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4833408830176537515}
+  m_Father: {fileID: 5977002707880498982}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!2083052967 &641984270828888796
 VisualEffect:
@@ -152,7 +152,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8733548784098458008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2213875354137422954}
   - component: {fileID: 3381897726682366181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Robot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2895064947943234598, guid: 254f8a5afe65ff24e93d75c14a75daec, type: 3}
+  - {fileID: 2100000, guid: 06bf7dca137504e468af093eb557f995, type: 2}
   - {fileID: 2100000, guid: bcf67d6f23ae8b441ac9c655d05275f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -279,7 +279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3099237635437053805}
   - component: {fileID: 4476487812529097276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Robot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,13 +295,13 @@ Transform:
   m_GameObject: {fileID: 2326501294632541655}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70710707, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: -0, y: -0.635, z: 0}
+  m_LocalPosition: {x: 0, y: -0.635, z: 0}
   m_LocalScale: {x: 344.2359, y: 78.93521, z: 78.93521}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6313957639682877762}
   - {fileID: 1482640709578918214}
-  m_Father: {fileID: 4833408830176537515}
+  m_Father: {fileID: 7494549817393406299}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!95 &4476487812529097276
 Animator:
@@ -324,6 +324,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2376387575211868615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7494549817393406299}
+  m_Layer: 6
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7494549817393406299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2376387575211868615}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3099237635437053805}
+  m_Father: {fileID: 4833408830176537515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2569791688226764940
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6313957639682877762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -366,7 +398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3749844763883336084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: joint7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6140791299052350604}
   - component: {fileID: 2497304295031441768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Robot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9065579610759678400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: joint9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1082936955383146391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: joint10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5977002707880498982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,6 +606,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 4256903828386728807}
   - {fileID: 1356963497405463}
   - {fileID: 8733548784098458008}
   - {fileID: 3749844763883336084}
@@ -589,7 +622,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4879198861069542614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7083142368600758663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: joint9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1356963497405463}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,8 +737,7 @@ Transform:
   m_LocalScale: {x: 2.1756, y: 2.1756, z: 0.4988772}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4256903828386728807}
-  - {fileID: 3099237635437053805}
+  - {fileID: 7494549817393406299}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2676937542708293536

@@ -47,7 +47,7 @@ Material:
     - _bladeOffset: 1
     - _bladeScale: 1.1
     - _bladeWidth: 3.27
-    - _colorDepth: 1.9
+    - _colorDepth: 0.55
     - _colorDistance: 0.88
     - _distortionFrequency: 0.2
     - _distortionScale: 1.11
@@ -56,7 +56,7 @@ Material:
     - _distortionWidth: 0.08
     - _fresnelClarity: 0.42
     - _highlightDistortionScale: 3
-    - _highlightHeight: 0.549
+    - _highlightHeight: 0.305
     - _highlightStrength: 1
     m_Colors:
     - _bladeBaseColor: {r: 0, g: 1, b: 1, a: 1}

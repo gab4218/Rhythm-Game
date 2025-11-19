@@ -17,6 +17,7 @@ public class EndMenuController : MonoBehaviour
     private void End(params object[] paramContainer)
     {
         StartCoroutine(EndCR());
+        Debug.Log("Ass");
         EventManager.Unsubscribe(EventType.End, End);
         EventManager.Unsubscribe(EventType.Death, End);
     }
@@ -36,6 +37,7 @@ public class EndMenuController : MonoBehaviour
     private IEnumerator EndCR()
     {
         float t = 0;
+        Debug.Log("Shit");
         while (t < 1f)
         {
             t += Time.unscaledDeltaTime;

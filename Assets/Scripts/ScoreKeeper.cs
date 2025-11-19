@@ -121,6 +121,8 @@ public class ScoreKeeper : MonoBehaviour
         _totalNotes++;
         _multText.text = "x" + _mult.ToString();
         _comboText.text = "Streak: " + _combo.ToString();
+        _percent = ((float)_hits) / _totalNotes;
+        _percentText.text = _percent.ToString("0#.00%");
     }
 
     private void Win(params object[] paramContainer)

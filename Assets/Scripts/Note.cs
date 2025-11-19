@@ -13,10 +13,10 @@ public abstract class Note : MonoBehaviour
         return this;
     }
 
-    public Note StartPos(Vector3 pos, Quaternion rot)
+    public Note StartPos(Vector3 pos)
     {
         transform.position = pos;
-        transform.rotation = rot;
+        //transform.rotation = rot;
         return this;
     }
 
@@ -24,6 +24,7 @@ public abstract class Note : MonoBehaviour
     protected void Update()
     {
         transform.position += transform.forward * speed * Time.deltaTime * 5f;
+        transform.up = Vector3.up;
     }
 
     protected virtual void OnTriggerEnter(Collider other)

@@ -48,7 +48,7 @@ public class ChartController : MonoBehaviour
         foreach (NoteData nData in selectedChart.notes)
         {
             yield return new WaitForSeconds(nData.delayFromLast);
-            Note note = Instantiate(nData.note).StartPos(GameManager.instance.lanes[nData.lane].position, GameManager.instance.lanes[nData.lane].rotation).Speed(nData.noteSpeed);
+            Note note = Instantiate(nData.note).StartPos(GameManager.instance.lanes[nData.lane].position).Speed(-nData.noteSpeed);
             note.transform.SetParent(_chartParent);
         }
 

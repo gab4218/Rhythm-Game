@@ -9,6 +9,7 @@ public class PlayerMain : MonoBehaviour
     [SerializeField] private Transform[] _lanes;
     [SerializeField] private Transform _chartParent;
     [SerializeField] private Animator _anim;
+    [SerializeField] private Material _mat;
     [SerializeField] private UnityEngine.UI.Image _hpImage;
     [SerializeField] private float _noteDetectionRange = 2f;
     [SerializeField] private float _health = 1f;
@@ -21,7 +22,7 @@ public class PlayerMain : MonoBehaviour
 
         _mobileThreshold = Screen.width/2;
 #if UNITY_STANDALONE_WIN
-        _controller = new PlayerControllerPC(_model, new PlayerView(_anim));
+        _controller = new PlayerControllerPC(_model, new PlayerView(_anim, _model).SetMat(_mat));
 
 #elif UNITY_ANDROID
         _controller = new PlayerControllerMobile(_model, new PlayerView(_anim)).SetBounds(_mobileThreshold).SetInverted(_inverted);
