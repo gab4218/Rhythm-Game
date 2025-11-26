@@ -65,6 +65,8 @@ public class SoundSingleton : MonoBehaviour
     public void Death(params object[] paramContainer)
     {
         //sfxSource.PlayOneShot(deathSound, 1);
+        material.SetColor("_downColor2", _startColor1);
+        material.SetColor("_sideColor2", _startColor2);
         StartCoroutine(DeathMusicFade());
         End();
     }

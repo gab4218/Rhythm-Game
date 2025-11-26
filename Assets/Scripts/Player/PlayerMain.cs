@@ -10,6 +10,8 @@ public class PlayerMain : MonoBehaviour
     [SerializeField] private Transform _chartParent;
     [SerializeField] private Animator _anim;
     [SerializeField] private Material _mat;
+    [SerializeField] private Material _dmgMat;
+    [SerializeField] private Material _deathMat;
     [SerializeField] private UnityEngine.UI.Image _hpImage;
     [SerializeField] private float _noteDetectionRange = 2f;
     [SerializeField] private float _health = 1f;
@@ -19,13 +21,14 @@ public class PlayerMain : MonoBehaviour
     private void Start()
     {
         _model = new PlayerModel(transform, _chartParent, _lanes, _hpImage).HP(_health).Range(_noteDetectionRange).LerpSpeed(_lerpSpeed);
-
+        _dmgMat.SetInt("_Enabled", 0);
+        _deathMat.SetInt("_Enabled", 0);
         _mobileThreshold = Screen.width/2;
 #if UNITY_STANDALONE_WIN
-        _controller = new PlayerControllerPC(_model, new PlayerView(_anim, _model).SetMat(_mat));
+        _controller = new PlayerControllerPC(_model, new PlayerView(_anim, _model, this).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat));
 
 #elif UNITY_ANDROID
-        _controller = new PlayerControllerMobile(_model, new PlayerView(_anim)).SetBounds(_mobileThreshold).SetInverted(_inverted);
+        _controller = new PlayerControllerMobile(_model, new PlayerView(_anim)).SetBounds(_mobileThreshold).SetInverted(_inverted).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat);
 #endif
         GameManager.instance.player = _model;
         RemoteConfigService.Instance.FetchCompleted += CheckInverted;
@@ -51,5 +54,11 @@ public class PlayerMain : MonoBehaviour
         _controller = null;
         EventManager.Unsubscribe(EventType.Death, Death);
         EventManager.Unsubscribe(EventType.End, Death);
+    }
+
+    private void OnDestroy()
+    {
+        _dmgMat.SetInt("_Enabled", 0);
+        _deathMat.SetInt("_Enabled", 0);
     }
 }

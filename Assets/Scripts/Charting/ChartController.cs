@@ -45,9 +45,15 @@ public class ChartController : MonoBehaviour
 
     private IEnumerator ChartReader()
     {
+        float t = 0;
         foreach (NoteData nData in selectedChart.notes)
         {
-            yield return new WaitForSeconds(nData.delayFromLast);
+            t = 0;
+            while(t < nData.delayFromLast)
+            {
+                t += Time.deltaTime;
+                yield return null;
+            }
             Note note = Instantiate(nData.note).StartPos(GameManager.instance.lanes[nData.lane].position).Speed(-nData.noteSpeed);
             note.transform.SetParent(_chartParent);
         }

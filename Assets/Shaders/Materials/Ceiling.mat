@@ -65,13 +65,13 @@ Material:
     - _normalStrength: 2.4
     m_Colors:
     - _downColor1: {r: 0.019090425, g: 0.3679245, b: 0.05185475, a: 1}
-    - _downColor2: {r: 0.14781001, g: 0.17856556, b: 0.15210587, a: 1}
+    - _downColor2: {r: 0.044572238, g: 0.122581266, b: 0.096865885, a: 1}
     - _downTiling: {r: 0.01, g: 0.01, b: 0, a: 0}
     - _noiseClarity: {r: 0.37, g: 0.53, b: 0, a: 0}
     - _scrollSpeed: {r: -0.05, g: 0, b: 0, a: 0}
     - _sideColor: {r: 1, g: 0.5879795, b: 0, a: 0}
     - _sideColor1: {r: 0.03728732, g: 0.103773594, b: 0.006363478, a: 0}
-    - _sideColor2: {r: 0.0037778902, g: 0.24435353, b: 0.081222445, a: 1}
+    - _sideColor2: {r: 0.20659277, g: 0.2335019, b: 0.21667108, a: 1}
     - _sideTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8376369358191511686

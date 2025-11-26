@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 4256903828386728807}
   - component: {fileID: 641984270828888796}
   - component: {fileID: 6443466056877376644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -764,7 +764,7 @@ GameObject:
   - component: {fileID: 5630905630516615427}
   - component: {fileID: 6467437776125123604}
   - component: {fileID: 6762935562864698409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ Transform:
   m_GameObject: {fileID: 7457419139581593399}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.423, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 0.5598999, y: 0.5598999, z: 2.4417198}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -932,5 +932,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1994c84e87667a4c885c0a815248f4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _particles: {fileID: 0}
   points: 2
+  explosion: {fileID: 6467437776125123604}
+  jet: {fileID: 641984270828888796}
+  myRenderers:
+  - {fileID: 3381897726682366181}
+  - {fileID: 2497304295031441768}

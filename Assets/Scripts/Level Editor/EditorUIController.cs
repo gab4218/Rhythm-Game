@@ -19,7 +19,7 @@ public class EditorUIController : MonoBehaviour
 {
     public static EditorUIController instance;
 
-
+    
     public bool anySelected = false;
 
     public EditorNoteTypes selectedType;
@@ -28,7 +28,9 @@ public class EditorUIController : MonoBehaviour
 
     private Image _selectedImage;
 
-    private Color _selectColor = new Color(1, 0.9348958f, 0.75f);
+    public Color selectColor = new Color(1, 0.9348958f, 0.75f);
+
+    public Color hoverColor;
 
 
     private void Awake()
@@ -41,29 +43,24 @@ public class EditorUIController : MonoBehaviour
         {
             instance = this;
         }
+        hoverColor = new Color(selectColor.r, selectColor.g, selectColor.b, 0.4f);
     }
 
-    public void SelectNote(EditorNoteTypes type)
-    {
-        selectedType = type;
-    }
+    public void SelectNote(EditorNoteTypes type) => selectedType = type;
 
-    public void SelectSpeed(EditorNoteSpeeds speed)
-    {
-        selectedSpeed = speed;
-    }
+    public void SelectSpeed(EditorNoteSpeeds speed) => selectedSpeed = speed;
 
     public void SelectButton(Image selectionImage)
     {
         if (_selectedImage == selectionImage)
         {
-            if (_selectedImage.color == _selectColor)
+            if (_selectedImage.color == selectColor)
             {
                 _selectedImage.color = new Color(0, 0, 0, 0);
             }
             else
             {
-                _selectedImage.color = _selectColor;
+                _selectedImage.color = selectColor;
             }
             anySelected = !anySelected;
             return;
@@ -75,13 +72,13 @@ public class EditorUIController : MonoBehaviour
         }
         anySelected = true;
         _selectedImage = selectionImage;
-        _selectedImage.color = _selectColor;
+        _selectedImage.color = selectColor;
     }
 
     public void HoverButton(Image image)
     {
         if (_selectedImage == image) return;
-        image.color = new Color(_selectColor.r, _selectColor.g, _selectColor.b, 0.4f);
+        image.color = hoverColor;
     }
 
     public void LeaveButton(Image image)

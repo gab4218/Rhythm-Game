@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Placeable
+  - Note
   layers:
   - Default
   - TransparentFX
