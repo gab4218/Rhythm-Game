@@ -101,5 +101,10 @@ public class SoundSingleton : MonoBehaviour
         musicSource.clip = newSong;
         musicSource.Play();
     }
+
+    public void StopMusic()
+    {
+        musicSource.Stop();
+    }
 }
 

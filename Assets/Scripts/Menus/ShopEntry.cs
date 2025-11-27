@@ -5,18 +5,24 @@ public class ShopEntry : MonoBehaviour
 {
     [SerializeField] private float _priceMult = 1;
     [SerializeField] private TMP_Text _priceText;
-    private int _price;
+    public int price;
+    public int item;
     private void Start()
     {
-        _price = (int)(ShopManager.instance.defaultPrice * _priceMult);
+        price = (int)(ShopManager.instance.defaultPrice * _priceMult);
         ShopManager.instance.OnPriceChange += ChangePrice;
-        _priceText.text = "Price: " + _price;
+        _priceText.text = "Price: " + price;
     }
 
     private void ChangePrice()
     {
-        _price = (int)(ShopManager.instance.defaultPrice * _priceMult);
-        _priceText.text = "Price: " + _price;
+        price = (int)(ShopManager.instance.defaultPrice * _priceMult);
+        _priceText.text = "Price: " + price;
+    }
+
+    public void Unlock()
+    {
+
     }
 
 }

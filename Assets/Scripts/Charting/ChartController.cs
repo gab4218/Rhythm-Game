@@ -35,23 +35,29 @@ public class ChartController : MonoBehaviour
         EventManager.Subscribe(EventType.Death, Death);
         EventManager.Subscribe(EventType.End, EndChart);
 
-        SoundSingleton.instance?.SetMusic(selectedChart.song);
+        StartCoroutine(SongStarter());
         _cr = StartCoroutine(ChartReader());
         RemoteConfigService.Instance.FetchCompleted += TSChange;
     }
 
-
+    private IEnumerator SongStarter()
+    {
+        yield return new WaitForSeconds(4);
+        SoundSingleton.instance?.SetMusic(selectedChart.song);
+    }
     
 
     private IEnumerator ChartReader()
     {
         float t = 0;
+        float scaler = 1f;
         foreach (NoteData nData in selectedChart.notes)
         {
             t = 0;
             while(t < nData.delayFromLast)
             {
-                t += Time.deltaTime;
+                t += Time.deltaTime * scaler;
+                if (PauseScreen.paused) scaler = 0; else scaler = 1;
                 yield return null;
             }
             Note note = Instantiate(nData.note).StartPos(GameManager.instance.lanes[nData.lane].position).Speed(-nData.noteSpeed);
@@ -79,6 +85,7 @@ public class ChartController : MonoBehaviour
 
     private IEnumerator SlowDowner()
     {
+        
         float t = 0;
         while (t < 1f)
         {

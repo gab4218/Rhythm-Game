@@ -24,7 +24,7 @@ public class EditorUIController : MonoBehaviour
 
     public EditorNoteTypes selectedType;
     
-    public EditorNoteSpeeds selectedSpeed;
+    public EditorNoteSpeeds selectedSpeed = EditorNoteSpeeds.Regular;
 
     private Image _selectedImage;
 

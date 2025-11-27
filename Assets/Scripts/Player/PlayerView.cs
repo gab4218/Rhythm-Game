@@ -11,6 +11,8 @@ public class PlayerView
 
     private Material _deathMaterial;
 
+    private Material _skinMaterial;
+
     private Color _startCol;
 
     private Color _startEm;
@@ -45,6 +47,13 @@ public class PlayerView
     public PlayerView SetDmgMat(Material mat)
     {
         _damageMaterial = mat;
+        return this;
+    }
+
+    public PlayerView SetSkinMat(Material mat)
+    {
+        _skinMaterial = mat;
+        _skinMaterial.color = InventoryManager.selectedColor;
         return this;
     }
 

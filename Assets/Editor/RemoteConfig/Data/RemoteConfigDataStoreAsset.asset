@@ -12,32 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"a415b785-fdb9-4566-9b52-7db1da3818a5\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"030cfbc4-399e-4182-a027-6a146c068239\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"DevMode\",\r\n      \"type\": \"bool\",\r\n     
     \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"77090667-b7c2-43ba-86a0-6b2d9679d200\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"a71149c1-baaa-41a8-b708-d6ef413d8e17\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"BaseSkinCost\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"e44631c7-7450-4305-a65d-73a2d4951432\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"d4a951d6-3325-4803-b0bd-27ff7659b59c\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"ShowEditorButton\",\r\n      \"type\":
-    \"bool\",\r\n      \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
-    {\r\n      \"entityId\": \"d691a0e1-3137-4a99-9d92-ccba23d32898\"\r\n    },\r\n   
+    \"bool\",\r\n      \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"0f363a8b-2356-424c-8fcb-c4b0a3aa9c20\"\r\n    },\r\n   
     \"rs\": {\r\n      \"key\": \"PlaybackSpeed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 1.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"dde98761-632b-427d-a766-3d7c3f59d299\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"15fccc1d-9b7c-463c-a2be-513e65a993d6\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"MirroredMobileControls\",\r\n      \"type\": \"bool\",\r\n      \"value\":
     false\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"a415b785-fdb9-4566-9b52-7db1da3818a5\"\r\n   
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"030cfbc4-399e-4182-a027-6a146c068239\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"DevMode\",\r\n      \"type\": \"bool\",\r\n     
     \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"77090667-b7c2-43ba-86a0-6b2d9679d200\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"a71149c1-baaa-41a8-b708-d6ef413d8e17\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"BaseSkinCost\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"e44631c7-7450-4305-a65d-73a2d4951432\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"d4a951d6-3325-4803-b0bd-27ff7659b59c\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"ShowEditorButton\",\r\n      \"type\":
-    \"bool\",\r\n      \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
-    {\r\n      \"entityId\": \"d691a0e1-3137-4a99-9d92-ccba23d32898\"\r\n    },\r\n   
+    \"bool\",\r\n      \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"0f363a8b-2356-424c-8fcb-c4b0a3aa9c20\"\r\n    },\r\n   
     \"rs\": {\r\n      \"key\": \"PlaybackSpeed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 1.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"dde98761-632b-427d-a766-3d7c3f59d299\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"15fccc1d-9b7c-463c-a2be-513e65a993d6\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"MirroredMobileControls\",\r\n      \"type\": \"bool\",\r\n      \"value\":
     false\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"72a91fa6-31a2-4b9e-b50b-04a9d03019a9\",\r\n   

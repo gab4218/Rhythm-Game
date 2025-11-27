@@ -6,7 +6,23 @@ public class EditorNote : MonoBehaviour
     public EditorNoteData data;
 
     [SerializeField] private Image _selectionImage;
+    [SerializeField] private Color _fastColor, _slowColor;
+    [SerializeField] private Image _speedImg;
 
+    private void Start()
+    {
+        switch (data.speed)
+        {
+            case EditorNoteSpeeds.Half:
+                _speedImg.color = _slowColor;
+                break;
+            case EditorNoteSpeeds.Regular:
+                break;
+            case EditorNoteSpeeds.Double:
+                _speedImg.color = _fastColor;
+                break;
+        }
+    }
 
     public void Select(bool real)
     { 

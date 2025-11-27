@@ -5,14 +5,29 @@ public class MoneyManager : MonoBehaviour
 {
     public static MoneyManager instance;
     public static int money = 0;
-    [SerializeField] private TMP_Text _text;
+    [SerializeField] private TMP_Text[] _text;
     private void Start()
     {
-        _text.text = money.ToString();
+        foreach (var t in _text)
+        {
+            t.text = money.ToString();
+
+        }
     }
 
     private void Update()
     {
-        _text.text = money.ToString();
+        foreach (var t in _text)
+        {
+            t.text = money.ToString();
+
+        }
+    }
+
+    public void Purchase(ShopEntry entry)
+    {
+        if (entry.price > money) return;
+        money -= entry.price;
+        InventoryManager.instance.Unlock(entry.item);
     }
 }

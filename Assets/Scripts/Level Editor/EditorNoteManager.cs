@@ -6,13 +6,16 @@ public class EditorNoteManager : MonoBehaviour
 {
     [SerializeField] private RectTransform _parent, _upperBound, _lowerBound;
     [SerializeField] private EditorNote[] _noteTypeArray;
+    [SerializeField] private Note[] _noteArray;
     [SerializeField] private Transform _rightmost;
     private Dictionary<EditorNoteTypes, EditorNote> _noteDictionary = new();
-    
+    private Dictionary<EditorNoteTypes, Note> _editorToChartNotes = new();
+
     [SerializeField] private int _horizontalSpacing = 12;
     [SerializeField] private int _verticalSpacing = 64;
-    [SerializeField] private int _verticalOffset = 32;
     [SerializeField] private float _boundsScale;
+
+    [SerializeField] private Chart _tempChart;
 
     private PointerEventData _pointerData;
 
@@ -40,7 +43,10 @@ public class EditorNoteManager : MonoBehaviour
         _noteDictionary.Add(EditorNoteTypes.Press, _noteTypeArray[0]);
         _noteDictionary.Add(EditorNoteTypes.Hold, _noteTypeArray[1]);
         _noteDictionary.Add(EditorNoteTypes.Release, _noteTypeArray[2]);
-        
+
+        _editorToChartNotes.Add(EditorNoteTypes.Press, _noteArray[0]);
+        _editorToChartNotes.Add(EditorNoteTypes.Hold, _noteArray[1]);
+        _editorToChartNotes.Add(EditorNoteTypes.Release, _noteArray[2]);
     }
 
     private void Update()
@@ -57,6 +63,16 @@ public class EditorNoteManager : MonoBehaviour
             Recall(_redoHistory, ref _undoHistory);
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            Convert();
+        }
+
         if (!EditorUIController.instance.anySelected) return;
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -68,18 +84,51 @@ public class EditorNoteManager : MonoBehaviour
 
     }
 
+    private void Convert()
+    {
+        
+        _tempChart.notes = new NoteData[_level.Count];
+
+        _level = _level.SortByTime();
+
+        Dictionary<EditorNote, float> timeDic = _level.CalculateTimes(0.005f);
+
+        _level = _level.SortByTime(timeDic);
+
+        Dictionary<EditorNote, float> speeds = _level.CalculateSpeeds();
+
+        Dictionary<EditorNote, int> lanes = _level.CalculateLanes();
+
+        _tempChart.notes[0] = new NoteData();
+        _tempChart.notes[0].note = _editorToChartNotes[_level[0].data.type];
+        _tempChart.notes[0].delayFromLast = timeDic[_level[0]];
+        _tempChart.notes[0].lane = lanes[_level[0]];
+        _tempChart.notes[0].noteSpeed = speeds[_level[0]];
+
+        for (int i = 1; i < _level.Count; i++)
+        {
+            _tempChart.notes[i] = new NoteData();
+            _tempChart.notes[i].note = _editorToChartNotes[_level[i].data.type];
+            _tempChart.notes[i].delayFromLast = timeDic[_level[i]] - timeDic[_level[i-1]];
+            Debug.Log("current" + timeDic[_level[i]] + " last" + timeDic[_level[i-1]]);
+            _tempChart.notes[i].lane = lanes[_level[i]];
+            _tempChart.notes[i].noteSpeed = speeds[_level[i]];
+        }
+
+    }
+
     private void PlaceNote()
     {
         RecordState();
 
-        var note = Instantiate(_noteDictionary[EditorUIController.instance.selectedType], _pointerData.position / _boundsScale, Quaternion.identity, _parent);
+        var note = Instantiate(_noteDictionary[EditorUIController.instance.selectedType], _pointerData.position, Quaternion.identity, _parent);
 
-        note.transform.position = new Vector2(_horizontalSpacing * (int)(note.transform.position.x / _horizontalSpacing) + _horizontalSpacing / 2, _verticalSpacing * (int)(note.transform.position.y / _verticalSpacing) + _verticalOffset) * _boundsScale;
+        //note.transform.position = new Vector2(_horizontalSpacing * (int)(note.transform.position.x / _horizontalSpacing) + _horizontalSpacing / 2, _verticalSpacing * (int)(note.transform.position.y / _verticalSpacing)) * _boundsScale;
         Vector2 local = _parent.InverseTransformPoint(note.transform.position);
 
-        note.transform.localPosition = new Vector2(local.x - (local.x % _horizontalSpacing) + _horizontalSpacing/2, local.y);
+        note.transform.localPosition = new Vector2(local.x - (local.x % _horizontalSpacing) + _horizontalSpacing/2, local.y - (local.y % _verticalSpacing) + _verticalSpacing / 2);
 
-
+        Debug.Log((local.y % _verticalSpacing));
         note.data.type = EditorUIController.instance.selectedType;
         note.data.speed = EditorUIController.instance.selectedSpeed;
         note.data.position = note.transform.position;

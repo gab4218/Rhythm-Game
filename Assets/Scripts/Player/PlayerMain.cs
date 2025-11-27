@@ -12,6 +12,7 @@ public class PlayerMain : MonoBehaviour
     [SerializeField] private Material _mat;
     [SerializeField] private Material _dmgMat;
     [SerializeField] private Material _deathMat;
+    [SerializeField] private Material _skinMat;
     [SerializeField] private UnityEngine.UI.Image _hpImage;
     [SerializeField] private float _noteDetectionRange = 2f;
     [SerializeField] private float _health = 1f;
@@ -25,10 +26,10 @@ public class PlayerMain : MonoBehaviour
         _deathMat.SetInt("_Enabled", 0);
         _mobileThreshold = Screen.width/2;
 #if UNITY_STANDALONE_WIN
-        _controller = new PlayerControllerPC(_model, new PlayerView(_anim, _model, this).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat));
+        _controller = new PlayerControllerPC(_model, new PlayerView(_anim, _model, this).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat).SetSkinMat(_skinMat));
 
 #elif UNITY_ANDROID
-        _controller = new PlayerControllerMobile(_model, new PlayerView(_anim)).SetBounds(_mobileThreshold).SetInverted(_inverted).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat);
+        _controller = new PlayerControllerMobile(_model, new PlayerView(_anim).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat).SetSkinMat(_skinMat)).SetBounds(_mobileThreshold).SetInverted(_inverted);
 #endif
         GameManager.instance.player = _model;
         RemoteConfigService.Instance.FetchCompleted += CheckInverted;
@@ -38,6 +39,10 @@ public class PlayerMain : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            ScreenManager.instance.Push("Pause");
+        }
         if (_controller == null) return;
 
         _controller.OnUpdate();
