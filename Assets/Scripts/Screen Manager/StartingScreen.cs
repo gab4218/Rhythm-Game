@@ -27,8 +27,6 @@ public class StartingScreen : MonoBehaviour
         if(pause) Save();
     }
 
-    public void Pause() => ScreenManager.instance.Push("Pause");
-
     private void OnApplicationFocus(bool focus)
     {
         if(!focus) Save();

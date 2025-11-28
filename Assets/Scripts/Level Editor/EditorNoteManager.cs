@@ -235,9 +235,6 @@ public class EditorNoteManager : MonoBehaviour
     }
 
 
-    public void Undo() => Recall(_undoHistory, ref _redoHistory);
-    public void Redo() => Recall(_redoHistory, ref _undoHistory);
-
     /// <summary>
     /// This function allows the user to return to the previous state of a Memento and record the current state to another.
     /// The parameter 'reader' is the Memento which is being returned to and 'writer' is the one which is being recorded to.

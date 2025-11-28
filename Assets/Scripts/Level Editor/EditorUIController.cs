@@ -54,8 +54,6 @@ public class EditorUIController : MonoBehaviour
         }
     }
 
-    public void Menu() => ScreenManager.instance.Push("EditorMenu");
-
     public void SelectNote(EditorNoteTypes type) => selectedType = type;
 
     public void SelectSpeed(EditorNoteSpeeds speed) => selectedSpeed = speed;
