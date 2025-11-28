@@ -44,16 +44,12 @@ public class PauseScreen : MonoBehaviour, IScreen
         Destroy(gameObject);
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape)) ScreenManager.instance.Pop();
-    }
-
     public void Options() => ScreenManager.instance.Push(_optionsName);
 
     public void Menu()
     {
-        EventManager.TriggerEvent(EventType.Death);
+        EventManager.TriggerEvent(EventType.End, false);
+        paused = false;
         SceneManager.LoadScene(_menuName);
     }
 

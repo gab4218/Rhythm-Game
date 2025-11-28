@@ -9,6 +9,12 @@ public class ShopEntry : MonoBehaviour
     public int item;
     private void Start()
     {
+        if (InventoryManager.unlockedCosmetics == default || InventoryManager.unlockedCosmetics.Length <= 0) InventoryManager.unlockedCosmetics = new bool[3] { true, false, false };
+        if (InventoryManager.unlockedCosmetics[item])
+        {
+            Destroy(_priceText.gameObject);
+            Destroy(this);
+        }
         price = (int)(ShopManager.instance.defaultPrice * _priceMult);
         ShopManager.instance.OnPriceChange += ChangePrice;
         _priceText.text = "Price: " + price;
@@ -20,9 +26,13 @@ public class ShopEntry : MonoBehaviour
         _priceText.text = "Price: " + price;
     }
 
-    public void Unlock()
+    public void Buy()
     {
-
+        MoneyManager.instance.Purchase(this);
+        if (InventoryManager.unlockedCosmetics[item])
+        {
+            Destroy(_priceText.gameObject);
+            Destroy(this);
+        }
     }
-
 }

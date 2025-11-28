@@ -6,7 +6,7 @@ public class EditorSongController : MonoBehaviour
 {
     [SerializeField] private AudioClip[] _songs;
 
-    public AudioClip selectedClip;
+    public AudioClip selectedSong;
 
     public static EditorSongController instance;
 
@@ -40,18 +40,18 @@ public class EditorSongController : MonoBehaviour
 
         if (songTracker == null) return;
 
-        songTracker.transform.localPosition += Vector3.right * 20f * Time.deltaTime;
+        songTracker.transform.localPosition += Vector3.right * 200f * Time.deltaTime;
         //if (songTracker.transform.localPosition.x > _root.sizeDelta.x) StopSong();
     }
 
     public void ChangeSong(TMP_Dropdown picker)
     {
-        selectedClip = _songs[picker.value];
+        selectedSong = _songs[picker.value];
     }
 
     public void PlaySong()
     {
-        SoundSingleton.instance.SetMusic(selectedClip);
+        SoundSingleton.instance.SetMusic(selectedSong);
         songTracker = Instantiate(_trackerPrefab, _root);
     }
 

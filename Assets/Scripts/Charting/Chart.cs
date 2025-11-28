@@ -19,3 +19,12 @@ public class Chart : ScriptableObject
         percent = 0;
     }
 }
+
+public struct ChartData
+{
+    public int score;
+    public int combo;
+    public float percent;
+    public bool completed;
+    public int index;
+}

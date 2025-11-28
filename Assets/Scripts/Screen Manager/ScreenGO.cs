@@ -37,7 +37,7 @@ public class ScreenGO : MonoBehaviour, IScreen
         foreach (var b in _root.GetComponentsInChildren<Behaviour>())
         {
             Debug.Log("asas");
-            if (b is Canvas || b is CanvasScaler || b is Image || b == this || b is Camera || b is TMP_Text || b is AudioSource || b is AudioListener) continue;
+            if (b is Canvas || b is CanvasScaler || b is Image || b == this || b is Camera || b is TMP_Text || b is AudioSource || b is AudioListener || b is EditorUIController) continue;
             _priorState.Add(b, b.enabled);
             b.enabled = false;
             if(b.TryGetComponent(out Rigidbody rb)) rb.isKinematic = false;

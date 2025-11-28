@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
-    public static bool[] unlockedCosmetics;
+    public static bool[] unlockedCosmetics = new bool[]{true, false, false};
 
-    [SerializeField] private Image[] _unlockImages;
+    [SerializeField] private GameObject[] _unlockImages;
 
     public static InventoryManager instance;
 
@@ -27,23 +27,17 @@ public class InventoryManager : MonoBehaviour
 
     private void Start()
     {
-        if (unlockedCosmetics == default) unlockedCosmetics = new bool[_unlockImages.Length];
-
-        for (int i = 0; i < _unlockImages.Length; i++)
+        if (unlockedCosmetics == default) unlockedCosmetics = new bool[3];
+        for (int i = 0; i < unlockedCosmetics.Length; i++)
         {
-            _unlockImages[i].gameObject.SetActive(!unlockedCosmetics[i]);
+            _unlockImages[i].SetActive(!unlockedCosmetics[i]);
         }
     }
 
-    public void Unlock(int piece)
-    {
-        unlockedCosmetics[piece] = true;
-        _unlockImages[piece].gameObject.SetActive(false);
-    }
 
-    public void SelectColor(Color col)
+    public void SelectColor(Image col)
     {
-        selectedColor = col;
+        selectedColor = col.color;
     }
     
 }

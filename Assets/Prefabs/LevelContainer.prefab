@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 7289488641660083695}
   - component: {fileID: 6986432316122699126}
   - component: {fileID: 2629157824429210951}
+  - component: {fileID: 8076607653952585890}
   m_Layer: 5
   m_Name: LevelContainer
   m_TagString: Untagged
@@ -217,6 +218,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8076607653952585890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4258721083770324954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4cd4e58a98a4e4595192011a5279df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chart: {fileID: 0}
+  _percent: {fileID: 7253270123000652238}
+  _combo: {fileID: 2001655215078197087}
+  _score: {fileID: 8520202339951168327}
+  _name: {fileID: 6114810080322374738}
+  _completed: {fileID: 5689409901182282865}
+  clip: {fileID: 8300000, guid: 056743fdcd3c70f4b914de7e7386f553, type: 3}
 --- !u!1 &4434691660922337757
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,7 +248,6 @@ GameObject:
   - component: {fileID: 2832166711401222669}
   - component: {fileID: 8032742982109536896}
   - component: {fileID: 408670885730655213}
-  - component: {fileID: 5748247628318093888}
   - component: {fileID: 3917497898627166833}
   m_Layer: 5
   m_Name: Play
@@ -295,24 +314,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5748247628318093888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4434691660922337757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf4cd4e58a98a4e4595192011a5279df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _chart: {fileID: 11400000, guid: 60090cd11f2d67b4c8750ac25de17601, type: 2}
-  _percent: {fileID: 7253270123000652238}
-  _combo: {fileID: 2001655215078197087}
-  _score: {fileID: 8520202339951168327}
-  _name: {fileID: 6114810080322374738}
-  _completed: {fileID: 5689409901182282865}
 --- !u!114 &3917497898627166833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +358,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5748247628318093888}
+      - m_Target: {fileID: 8076607653952585890}
         m_TargetAssemblyTypeName: ChartSelection, Assembly-CSharp
         m_MethodName: SelectChart
         m_Mode: 1
@@ -773,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:

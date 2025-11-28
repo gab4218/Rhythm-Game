@@ -127,7 +127,7 @@ public class ScoreKeeper : MonoBehaviour
 
     private void Win(params object[] paramContainer)
     {
-        ChartController.selectedChart.completed = true;
+        ChartController.selectedChart.completed = (bool)paramContainer[0];
         _win.SetActive(true);
         _lose.SetActive(false);
         End();

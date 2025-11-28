@@ -1,6 +1,7 @@
 using System.Collections;
 using Unity.Services.RemoteConfig;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class ChartController : MonoBehaviour
 {
@@ -42,7 +43,14 @@ public class ChartController : MonoBehaviour
 
     private IEnumerator SongStarter()
     {
-        yield return new WaitForSeconds(4);
+        float t = 0;
+        float scaler = 1;
+        while (t < 4)
+        {
+            t += Time.deltaTime * scaler;
+            if (PauseScreen.paused) scaler = 0; else scaler = 1;
+            yield return null;
+        }
         SoundSingleton.instance?.SetMusic(selectedChart.song);
     }
     
@@ -70,7 +78,7 @@ public class ChartController : MonoBehaviour
         }
         yield return new WaitForSecondsRealtime(1.5f);
 
-        EventManager.TriggerEvent(EventType.End);
+        EventManager.TriggerEvent(EventType.End, true);
 
     }
 

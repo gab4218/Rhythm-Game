@@ -1,26 +1,36 @@
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[System.Serializable]
 public class ChartSelection : MonoBehaviour
 {
-    [SerializeField] private Chart _chart;
+    public Chart chart;
     [SerializeField] private TMP_Text _percent, _combo, _score, _name;
     [SerializeField] private GameObject _completed;
+    //[SerializeField] private Button _button;
+    [SerializeField] private AudioClip clip;
 
+    
     private void Start()
     {
-        _completed.SetActive(_chart.completed);
-        _percent.text = _chart.percent.ToString("0#.00%");
-        _combo.text = _chart.combo.ToString();
-        _score.text = _chart.score.ToString();
-        _name.text = _chart.name;
+        _completed.SetActive(chart.completed);
+        _percent.text = chart.percent.ToString("0#.00%");
+        _combo.text = chart.combo.ToString();
+        _score.text = chart.score.ToString();
+        _name.text = chart.name;
     }
 
     public void SelectChart()
     {
-        ChartController.selectedChart = _chart;
-        SceneManager.LoadScene("MainGameplay");
+        if (StaminaManager.instance.UseStamina())
+        {
+            ChartController.selectedChart = chart;
+            SceneManager.LoadScene("MainGameplay");
+        }
+        else
+        {
+            SoundSingleton.instance.sfxSource.PlayOneShot(clip);
+        }
     }
 }

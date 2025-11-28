@@ -63,10 +63,6 @@ public class EditorNoteManager : MonoBehaviour
             Recall(_redoHistory, ref _undoHistory);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-
-        }
 
         if (Input.GetKeyDown(KeyCode.L))
         {
@@ -81,12 +77,18 @@ public class EditorNoteManager : MonoBehaviour
         }
 
         
-
     }
 
-    private void Convert()
+    private void OnDestroy()
     {
-        
+        _tempChart = ScriptableObject.CreateInstance<Chart>();
+        Convert();
+    }
+
+    public void Convert()
+    {
+        if (_level.Count <= 0) return;
+
         _tempChart.notes = new NoteData[_level.Count];
 
         _level = _level.SortByTime();
@@ -114,7 +116,9 @@ public class EditorNoteManager : MonoBehaviour
             _tempChart.notes[i].lane = lanes[_level[i]];
             _tempChart.notes[i].noteSpeed = speeds[_level[i]];
         }
-
+        _tempChart.song = EditorSongController.instance.selectedSong;
+        SaveManager.SaveLevel(_tempChart);
+        //Destroy(_tempChart);
     }
 
     private void PlaceNote()
@@ -217,13 +221,14 @@ public class EditorNoteManager : MonoBehaviour
         EventSystem.current.RaycastAll(_pointerData, resList);
 
         if (resList.Count <= 0) return;
-        if (resList[0].gameObject.tag == tag)
+        if (resList[0].gameObject.CompareTag(tag))
         {
             _boundsScale = (_upperBound.position.y - _lowerBound.position.y) / 640f;
             if (place) PlaceNote();
             else
             {
                 var n = resList[0].gameObject.GetComponent<EditorNote>();
+                _rightmost = n.transform;
                 SelectNote(n);
             }
         }

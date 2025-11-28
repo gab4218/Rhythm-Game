@@ -20,4 +20,25 @@ public class StartingScreen : MonoBehaviour
         }
     }
 
+    private void OnApplicationQuit() => Save();
+
+    private void OnApplicationPause(bool pause)
+    {
+        if(pause) Save();
+    }
+
+    private void OnApplicationFocus(bool focus)
+    {
+        if(!focus) Save();
+    }
+
+    private void Save()
+    {
+        SaveData data = new();
+        data.money = MoneyManager.money;
+        data.unlockedCosmetics = InventoryManager.unlockedCosmetics;
+        ChartDataHolder.instance.Save();
+        data.allCharts = ChartDataHolder.allCharts;
+        SaveManager.SaveData(data);
+    }
 }

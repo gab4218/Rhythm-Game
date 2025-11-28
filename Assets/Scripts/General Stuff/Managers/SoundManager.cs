@@ -43,6 +43,12 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    public float GetVolume(string type)
+    {
+        mixer.GetFloat(type, out float t);
+        return t;
+    }
+
     public float GetMusicVolume()
     {
         mixer.GetFloat("MusicVolume", out float t);

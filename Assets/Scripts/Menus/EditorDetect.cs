@@ -1,5 +1,6 @@
 using Unity.Services.RemoteConfig;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EditorDetect : MonoBehaviour
 {
@@ -20,5 +21,10 @@ public class EditorDetect : MonoBehaviour
         _enabled = RemoteConfigService.Instance.appConfig.GetBool("ShowEditorButton");
 
         _editorButton.SetActive(_enabled);
+    }
+
+    public void GoToEditor()
+    {
+        SceneManager.LoadScene("LevelEditor");
     }
 }

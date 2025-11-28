@@ -17,7 +17,7 @@ public class SoundSingleton : MonoBehaviour
     {
         if (instance != null && instance != this)
         {
-            Destroy(gameObject);
+            Destroy(this);
         }
         else
         {
@@ -37,11 +37,12 @@ public class SoundSingleton : MonoBehaviour
 
     public void Button()
     {
-        sfxSource.PlayOneShot(button, 1);
+        sfxSource?.PlayOneShot(button, 1);
     }
 
     public void Hit(params object[] paramContainer)
     {
+        if (sfxSource == null) return;
         sfxSource.pitch = Random.Range(0.8f, 1.2f);
         sfxSource.PlayOneShot(hitSound, 1);
         material.SetColor("_sideColor2", Color.white);
@@ -50,6 +51,7 @@ public class SoundSingleton : MonoBehaviour
 
     public void Miss(params object[] paramContainer)
     {
+        Debug.Log(sfxSource.transform.name);
         sfxSource.pitch = Random.Range(0.8f, 1.2f);
         sfxSource.PlayOneShot(missSound, 1);
         material.SetColor("_sideColor2", Color.red);
@@ -60,6 +62,12 @@ public class SoundSingleton : MonoBehaviour
     {
         material.SetColor("_downColor2", Color.Lerp(material.GetColor("_downColor2"), _startColor1, 0.2f));
         material.SetColor("_sideColor2", Color.Lerp(material.GetColor("_sideColor2"), _startColor2, 0.2f));
+    }
+
+    private void OnDestroy()
+    {
+        End();
+        instance = null;
     }
 
     public void Death(params object[] paramContainer)

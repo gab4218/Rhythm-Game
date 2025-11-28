@@ -46,6 +46,14 @@ public class EditorUIController : MonoBehaviour
         hoverColor = new Color(selectColor.r, selectColor.g, selectColor.b, 0.4f);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ScreenManager.instance.Push("EditorMenu");
+        }
+    }
+
     public void SelectNote(EditorNoteTypes type) => selectedType = type;
 
     public void SelectSpeed(EditorNoteSpeeds speed) => selectedSpeed = speed;

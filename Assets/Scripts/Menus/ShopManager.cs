@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using TMPro;
 using Unity.Services.RemoteConfig;
 using UnityEngine;
 
@@ -10,6 +12,8 @@ public class ShopManager : MonoBehaviour
 
     public event Action OnPriceChange;
 
+    public List<TMP_Text> text;
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -20,6 +24,7 @@ public class ShopManager : MonoBehaviour
         {
             instance = this;
         }
+        MoneyManager.instance.text.AddRange(text);
     }
 
     void Start()
@@ -33,4 +38,8 @@ public class ShopManager : MonoBehaviour
         OnPriceChange?.Invoke();
     }
     
+    public void Inventory()
+    {
+        ScreenManager.instance.Push("Inventory");
+    }
 }
