@@ -38,8 +38,8 @@ public abstract class Note : MonoBehaviour
 
     protected virtual void Explode()
     {
-        explosion.SendEvent("Death");
-        jet.SendEvent("Death");
+        explosion?.SendEvent("Death");
+        jet?.SendEvent("Death");
         foreach (var r in myRenderers) r.enabled = false;
         GetComponent<Collider>().enabled = false;
         Invoke("Death", 2f);
