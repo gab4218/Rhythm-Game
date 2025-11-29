@@ -253,6 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2620141961939165158}
   - component: {fileID: 7911791662394317844}
+  - component: {fileID: 8033299829304353279}
   m_Layer: 5
   m_Name: SafeArea
   m_TagString: Untagged
@@ -275,10 +276,10 @@ RectTransform:
   - {fileID: 9028831198049285066}
   m_Father: {fileID: 4351899687159366583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0039721, y: 0}
-  m_SizeDelta: {x: 1920, y: 991.08}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7911791662394317844
 CanvasRenderer:
@@ -288,6 +289,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325895319522503724}
   m_CullTransparentMesh: 1
+--- !u!114 &8033299829304353279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325895319522503724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d71f0cfae45d544be5f429ef56928d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 5291746364209924319}
 --- !u!1 &1774054607957859414
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,10 +334,10 @@ RectTransform:
   - {fileID: 5227304991122699931}
   m_Father: {fileID: 2620141961939165158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1850, y: 1000}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &3927342737131112219
 CanvasGroup:
@@ -654,7 +668,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015258789, y: -8.536194}
+  m_AnchoredPosition: {x: -0.0005514083, y: -8.536194}
   m_SizeDelta: {x: 1850, y: 881.0721}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &4037554330709263860
@@ -1065,7 +1079,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1831515535895326147}
   m_HandleRect: {fileID: 1818412751605581732}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
