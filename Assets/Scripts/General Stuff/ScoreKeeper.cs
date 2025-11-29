@@ -152,6 +152,7 @@ public class ScoreKeeper : MonoBehaviour
 
         MoneyManager.money += _score / 4;
 
+        Debug.Log(ChartController.selectedChart.percent);
         EventManager.Unsubscribe(EventType.Death, End);
         EventManager.Unsubscribe(EventType.Hit, Score);
         EventManager.Unsubscribe(EventType.Miss, Miss);

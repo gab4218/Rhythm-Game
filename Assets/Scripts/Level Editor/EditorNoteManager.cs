@@ -15,7 +15,7 @@ public class EditorNoteManager : MonoBehaviour
     [SerializeField] private int _verticalSpacing = 64;
     [SerializeField] private float _boundsScale;
 
-    [SerializeField] private Chart _tempChart;
+    [SerializeField] private ChartData _tempChart;
 
     private PointerEventData _pointerData;
 
@@ -81,7 +81,7 @@ public class EditorNoteManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        _tempChart = ScriptableObject.CreateInstance<Chart>();
+        _tempChart = new();
         Convert();
     }
 
@@ -117,6 +117,7 @@ public class EditorNoteManager : MonoBehaviour
             _tempChart.notes[i].noteSpeed = speeds[_level[i]];
         }
         _tempChart.song = EditorSongController.instance.selectedSong;
+        _tempChart.name = _tempChart.song.name;
         SaveManager.SaveLevel(_tempChart);
         //Destroy(_tempChart);
     }

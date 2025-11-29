@@ -15,10 +15,11 @@ public class Menu : MonoBehaviour
         Debug.Log("loading");
         SaveData data = SaveManager.LoadGame();
         saved = true;
-        ChartDataHolder.allCharts = data.allCharts;
+        ChartDataHolder.allCharts = new();
         MoneyManager.money = data.money;
         InventoryManager.unlockedCosmetics = data.unlockedCosmetics;
-        ChartDataHolder.instance.Load();
+        if (data.allCharts.Length <= 0) return;
+        foreach (var c in data.allCharts) ChartDataHolder.allCharts.Add(JsonUtility.FromJson<ChartData>(c));
     }
 
     public void Exit() => Application.Quit();
@@ -27,12 +28,13 @@ public class Menu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
+            Debug.Log("loading");
             SaveData data = SaveManager.LoadGame();
             saved = true;
-            ChartDataHolder.allCharts = data.allCharts;
+            ChartDataHolder.allCharts = new();
+            foreach (var c in data.allCharts) ChartDataHolder.allCharts.Add(JsonUtility.FromJson<ChartData>(c));
             MoneyManager.money = data.money;
             InventoryManager.unlockedCosmetics = data.unlockedCosmetics;
-            ChartDataHolder.instance.Load();
         }
     }
 
@@ -40,10 +42,10 @@ public class Menu : MonoBehaviour
     {
         SaveManager.DeleteSaveData();
         SaveData data = SaveManager.LoadGame();
-        ChartDataHolder.instance.Load();
-        ChartDataHolder.instance.Load();
+        Debug.Log("loading");
         saved = true;
-        ChartDataHolder.allCharts = data.allCharts;
+        ChartDataHolder.allCharts = new();
+        //foreach (var c in data.allCharts) ChartDataHolder.allCharts.Add(JsonUtility.FromJson<ChartData>(c));
         MoneyManager.money = data.money;
         InventoryManager.unlockedCosmetics = data.unlockedCosmetics;
 
