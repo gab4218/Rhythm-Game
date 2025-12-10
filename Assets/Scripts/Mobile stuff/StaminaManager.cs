@@ -96,12 +96,14 @@ public class StaminaManager : MonoBehaviour
         if (currentStamina >= _maxStamina)
         {
             _timerText.text = "Full";
-            return;
         }
+        else
+        {
 
-        TimeSpan time = _nextTime - Localizator(_localization);
+            TimeSpan time = _nextTime - Localizator(_localization);
 
-        _timerText.text = $"{time.Minutes.ToString("00")}:{time.Seconds.ToString("00")}";
+            _timerText.text = $"{time.Minutes.ToString("00")}:{time.Seconds.ToString("00")}";
+        }
 
         _staminaText.text = $"{currentStamina}/{_maxStamina}";
     }
@@ -135,6 +137,7 @@ public class StaminaManager : MonoBehaviour
         currentStamina = Mathf.Min(_maxStamina, currentStamina + s);
         _nextTime = AddTime(Localizator(_localization), _timePerStamina);
         StartCoroutine(ChargeStamina());
+        UpdateTexts();
     }
 
 

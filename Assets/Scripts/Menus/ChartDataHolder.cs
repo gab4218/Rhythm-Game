@@ -12,6 +12,12 @@ public class ChartDataHolder : MonoBehaviour
 
     public static ChartDataHolder instance;
 
+    public void Load()
+    {
+        if (allCharts == default) return;
+        
+    }
+
     private void Awake()
     {
         if (instance != this && instance != null)
@@ -25,55 +31,28 @@ public class ChartDataHolder : MonoBehaviour
         if (allCharts == default)
         {
             allCharts = new List<ChartData>();
-            return;
         }
 
-        
-    }
-    public void Load()
-    {
-        if (allCharts == default) return;
-        foreach (ChartData c in allCharts)
-        {
-            charts[c.index].completed = c.completed;
-            charts[c.index].score = c.score;
-            charts[c.index].percent = c.percent;
-            charts[c.index].combo = c.combo;
-        }
-    }
-
-    public void Save()
-    {
-        for(int i = 0; i < charts.Count; i++)
-        {
-            allCharts = new();
-            ChartData d = new();
-            d.index = i;
-            d.score = charts[i].score;
-            d.percent = charts[i].percent;
-            d.combo = charts[i].combo;
-            d.percent = charts[i].percent;
-            allCharts.Add(d);
-        }
-    }
-    private void Start()
-    {
-        /*
         string[] chartPaths = Directory.GetFiles(Application.persistentDataPath, "*.level");
+        Debug.Log(chartPaths.Length);
         if (chartPaths.Length <= 0) return;
-        if (chartPaths.Length <= allCharts.Count) return;
+        //if (chartPaths.Length <= allCharts.Count) return;
 
-        foreach (Chart c in allCharts) Destroy(c);
-
-        allCharts = new();
 
         foreach (string path in chartPaths)
         {
-            Chart c = SaveManager.LoadChart(path);
-            allCharts.Add(c);
+            ChartData c = JsonUtility.FromJson<ChartData>(File.ReadAllText(path));
             ChartSelection cs = Instantiate(_chartPrefab, _parent);
-            cs.chart = c;
+            foreach (ChartData d in allCharts)
+            {
+                if (d.name.Equals(c.name))
+                {
+                    c = d;
+                }
+            }
+            cs.myData = c;
         }
-        */
+        //allCharts = new();
+        
     }
 }

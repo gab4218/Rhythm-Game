@@ -7,22 +7,23 @@ public static class SaveManager
 
     public static SaveData data = new SaveData();
 
-    public static void SaveLevel(Chart chart)
+    public static void SaveLevel(ChartData chart)
     {
-        string path = Application.persistentDataPath + chart.song.name + ".level";
+        string path = Application.persistentDataPath + "/" + chart.song.name + ".level";
 
         string json = JsonUtility.ToJson(chart, true);
 
+        Debug.Log(path);
         File.WriteAllText(path, json);
     }
 
-    public static Chart LoadChart(string path)
+    public static ChartData LoadChart(string path)
     {
-        Chart chart = ScriptableObject.CreateInstance<Chart>();
+        ChartData chart = new();
         if(File.Exists(path))
         {
             string json = File.ReadAllText(path);
-            JsonUtility.FromJsonOverwrite(json, chart);
+            chart = JsonUtility.FromJson<ChartData>(json);
         }
         
         return chart;
@@ -61,7 +62,7 @@ public struct SaveData
 {
     public int money;
     public bool[] unlockedCosmetics;
-    public List<ChartData> allCharts;
+    public string[] allCharts;
     public bool correct;
 
     public SaveData(bool correct = false) : this()
