@@ -40,7 +40,7 @@ Material:
     m_Floats:
     - _Enabled: 0
     - _NoiseStrength: 0.2
-    - _Progress: 0.9997237
+    - _Progress: 0.99633723
     m_Colors:
     - _NoiseOffset: {r: 1, g: 0, b: 0, a: 0}
     - _NoiseTiling: {r: 1, g: 4.69, b: 0, a: 0}

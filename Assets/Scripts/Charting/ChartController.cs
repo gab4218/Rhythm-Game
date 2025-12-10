@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 
 public class ChartController : MonoBehaviour
 {
-    public static ChartData selectedChart;
+    public static Chart selectedChart;
 
     public static ChartController instance;
 
@@ -37,7 +37,6 @@ public class ChartController : MonoBehaviour
         EventManager.Subscribe(EventType.End, EndChart);
 
         StartCoroutine(SongStarter());
-        SoundSingleton.instance.SetMusic(selectedChart.song);
         _cr = StartCoroutine(ChartReader());
         RemoteConfigService.Instance.FetchCompleted += TSChange;
     }
@@ -52,7 +51,7 @@ public class ChartController : MonoBehaviour
             if (PauseScreen.paused) scaler = 0; else scaler = 1;
             yield return null;
         }
-        SoundSingleton.instance.PlayMusic();
+        SoundSingleton.instance?.SetMusic(selectedChart.song);
     }
     
 

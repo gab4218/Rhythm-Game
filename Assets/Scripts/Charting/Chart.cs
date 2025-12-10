@@ -22,9 +22,6 @@ public class Chart : ScriptableObject
 
 public struct ChartData
 {
-    public NoteData[] notes;
-    public string name;
-    public AudioClip song;
     public int score;
     public int combo;
     public float percent;

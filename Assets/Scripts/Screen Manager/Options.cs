@@ -12,13 +12,8 @@ public class Options : MonoBehaviour
         SaveData data = new();
         data.money = MoneyManager.money;
         data.unlockedCosmetics = InventoryManager.unlockedCosmetics;
-        //ChartDataHolder.instance.Save();
-        string[] ac = new string[ChartDataHolder.allCharts.Count];
-        for (int i = 0; i < ac.Length; i++)
-        {
-            ac[i] = JsonUtility.ToJson(ChartDataHolder.allCharts[i]);
-        }
-        data.allCharts = ac;
+        ChartDataHolder.instance.Save();
+        data.allCharts = ChartDataHolder.allCharts;
         SaveManager.SaveData(data);
     }
 }
