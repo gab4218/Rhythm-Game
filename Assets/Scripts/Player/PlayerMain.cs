@@ -29,7 +29,7 @@ public class PlayerMain : MonoBehaviour
         _controller = new PlayerControllerPC(_model, new PlayerView(_anim, _model, this).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat).SetSkinMat(_skinMat));
 
 #elif UNITY_ANDROID
-        _controller = new PlayerControllerMobile(_model, new PlayerView(_anim, _model, this).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat).SetSkinMat(_skinMat)).SetBounds(_mobileThreshold).SetInverted(_inverted);
+        _controller = new PlayerControllerMobile(_model, new PlayerView(_anim).SetMat(_mat).SetDeathMat(_deathMat).SetDmgMat(_dmgMat).SetSkinMat(_skinMat)).SetBounds(_mobileThreshold).SetInverted(_inverted);
 #endif
         GameManager.instance.player = _model;
         RemoteConfigService.Instance.FetchCompleted += CheckInverted;
