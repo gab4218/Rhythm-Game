@@ -18,7 +18,6 @@ public class PlayerMain : MonoBehaviour
     [SerializeField] private float _health = 1f;
     [SerializeField] private float _lerpSpeed = 10f;
     private float _mobileThreshold;
-    [SerializeField] private Terrain _terrain;
 
     private void Start()
     {
@@ -48,7 +47,6 @@ public class PlayerMain : MonoBehaviour
 
         _controller.OnUpdate();
         _model.OnUpdate();
-        _terrain.terrainData.terrainLayers[0].tileOffset += new Vector2(0, 10f * Time.deltaTime);
     }
 
     private void CheckInverted(ConfigResponse configResponse)

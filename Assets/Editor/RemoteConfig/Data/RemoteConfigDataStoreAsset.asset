@@ -12,32 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"79425911-59ff-440c-9135-d03f55d4d1fb\"\r\n   
+
+
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"d8985cc3-5a5d-4f4b-b023-d93d44980bd1\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"DevMode\",\r\n      \"type\": \"bool\",\r\n     
     \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"4f40c3de-906f-4e50-b077-c9f5ae4e29f9\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"d0783e1f-1f56-4fb3-b867-0ef80221a53c\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"BaseSkinCost\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"556eb179-ecce-433e-8a6a-80aec0173785\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"c3203ed8-1248-4ac2-b94e-10ece131098d\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"ShowEditorButton\",\r\n      \"type\":
     \"bool\",\r\n      \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
-    {\r\n      \"entityId\": \"28e9f2e1-2ab7-4937-9191-d654b18fa1ec\"\r\n    },\r\n   
+    {\r\n      \"entityId\": \"83c328ed-8e46-4530-9450-6077cb84bb30\"\r\n    },\r\n   
     \"rs\": {\r\n      \"key\": \"PlaybackSpeed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 1.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"c8cf6afc-c15a-4d20-9149-b2accca8d053\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"363ebe37-e78c-4fd4-b865-1d568395ec8d\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"MirroredMobileControls\",\r\n      \"type\": \"bool\",\r\n      \"value\":
     false\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"79425911-59ff-440c-9135-d03f55d4d1fb\"\r\n   
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"d8985cc3-5a5d-4f4b-b023-d93d44980bd1\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"DevMode\",\r\n      \"type\": \"bool\",\r\n     
     \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"4f40c3de-906f-4e50-b077-c9f5ae4e29f9\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"d0783e1f-1f56-4fb3-b867-0ef80221a53c\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"BaseSkinCost\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"556eb179-ecce-433e-8a6a-80aec0173785\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"c3203ed8-1248-4ac2-b94e-10ece131098d\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"ShowEditorButton\",\r\n      \"type\":
     \"bool\",\r\n      \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
-    {\r\n      \"entityId\": \"28e9f2e1-2ab7-4937-9191-d654b18fa1ec\"\r\n    },\r\n   
+    {\r\n      \"entityId\": \"83c328ed-8e46-4530-9450-6077cb84bb30\"\r\n    },\r\n   
     \"rs\": {\r\n      \"key\": \"PlaybackSpeed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 1.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"c8cf6afc-c15a-4d20-9149-b2accca8d053\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"363ebe37-e78c-4fd4-b865-1d568395ec8d\"\r\n    },\r\n    \"rs\": {\r\n     
+
     \"key\": \"MirroredMobileControls\",\r\n      \"type\": \"bool\",\r\n      \"value\":
     false\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"72a91fa6-31a2-4b9e-b50b-04a9d03019a9\",\r\n   

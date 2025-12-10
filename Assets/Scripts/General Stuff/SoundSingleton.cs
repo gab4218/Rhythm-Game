@@ -23,9 +23,8 @@ public class SoundSingleton : MonoBehaviour
         {
             instance = this;
         }
-        _startColor1 = Camera.main.backgroundColor;
-        //_startColor1 = material.GetColor("_downColor2");
-        //_startColor2 = material.GetColor("_sideColor2");
+        _startColor1 = material.GetColor("_downColor2");
+        _startColor2 = material.GetColor("_sideColor2");
     }
 
     private void Start()
@@ -46,9 +45,8 @@ public class SoundSingleton : MonoBehaviour
         if (sfxSource == null) return;
         sfxSource.pitch = Random.Range(0.8f, 1.2f);
         sfxSource.PlayOneShot(hitSound, 1);
-        Camera.main.backgroundColor = new Color(0.8f, 0.8f, 0.8f);
-        //material.SetColor("_sideColor2", Color.white);
-        //material.SetColor("_downColor2", Color.white);
+        material.SetColor("_sideColor2", Color.white);
+        material.SetColor("_downColor2", Color.white);
     }
 
     public void Miss(params object[] paramContainer)
@@ -56,16 +54,14 @@ public class SoundSingleton : MonoBehaviour
         Debug.Log(sfxSource.transform.name);
         sfxSource.pitch = Random.Range(0.8f, 1.2f);
         sfxSource.PlayOneShot(missSound, 1);
-        Camera.main.backgroundColor = Color.red;
-        //material.SetColor("_sideColor2", Color.red);
-        //material.SetColor("_downColor2", Color.red);
+        material.SetColor("_sideColor2", Color.red);
+        material.SetColor("_downColor2", Color.red);
     }
 
     private void FixedUpdate()
     {
-        Camera.main.backgroundColor = Color.Lerp(Camera.main.backgroundColor, _startColor1, 0.2f);
-        //material.SetColor("_downColor2", Color.Lerp(material.GetColor("_downColor2"), _startColor1, 0.2f));
-        //material.SetColor("_sideColor2", Color.Lerp(material.GetColor("_sideColor2"), _startColor2, 0.2f));
+        material.SetColor("_downColor2", Color.Lerp(material.GetColor("_downColor2"), _startColor1, 0.2f));
+        material.SetColor("_sideColor2", Color.Lerp(material.GetColor("_sideColor2"), _startColor2, 0.2f));
     }
 
     private void OnDestroy()
@@ -77,9 +73,8 @@ public class SoundSingleton : MonoBehaviour
     public void Death(params object[] paramContainer)
     {
         //sfxSource.PlayOneShot(deathSound, 1);
-        //material.SetColor("_downColor2", _startColor1);
-        //material.SetColor("_sideColor2", _startColor2);
-        Camera.main.backgroundColor = _startColor1;
+        material.SetColor("_downColor2", _startColor1);
+        material.SetColor("_sideColor2", _startColor2);
         StartCoroutine(DeathMusicFade());
         End();
     }

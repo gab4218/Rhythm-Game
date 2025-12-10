@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class SafeAreaController : MonoBehaviour
 {
-    /*
 #if UNITY_ANDROID
     [SerializeField] private Canvas _canvas;
     private RectTransform _rectTransform;
@@ -37,7 +36,6 @@ public class SafeAreaController : MonoBehaviour
 
         _rectTransform.anchorMin = _minAnchor;
         _rectTransform.anchorMax = _maxAnchor;
-        Debug.Log("aa");
     }
 
     private void LateUpdate()
@@ -45,5 +43,4 @@ public class SafeAreaController : MonoBehaviour
         if (_lastSafeArea != Screen.safeArea) AdjustSafeArea();
     }
 #endif
-    */
 }
