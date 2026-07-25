@@ -698,12 +698,12 @@ PrefabInstance:
     - target: {fileID: 5659459439975960206, guid: 33801a9c0432bb74981dd4395aac4ede,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -323
+      value: -326.8
       objectReference: {fileID: 0}
     - target: {fileID: 5659459439975960206, guid: 33801a9c0432bb74981dd4395aac4ede,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.6
+      value: 38.7
       objectReference: {fileID: 0}
     - target: {fileID: 5659459439975960206, guid: 33801a9c0432bb74981dd4395aac4ede,
         type: 3}
@@ -7541,6 +7541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _chartParent: {fileID: 2088440361}
+  _mountainMaterial: {fileID: 2100000, guid: 898230d9ff031d94590c27327d4d0613, type: 2}
 --- !u!82 &1826612006
 AudioSource:
   m_ObjectHideFlags: 0

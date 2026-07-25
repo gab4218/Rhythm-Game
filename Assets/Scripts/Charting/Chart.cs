@@ -5,6 +5,7 @@ using UnityEngine;
 public class Chart : ScriptableObject
 {
     public NoteData[] notes;
+    public DecoData[] deco;
     public AudioClip song;
     public float bpm;
     public int score = 0;
@@ -23,6 +24,7 @@ public class Chart : ScriptableObject
 public struct ChartData
 {
     public NoteData[] notes;
+    public DecoData[] deco;
     public string name;
     public AudioClip song;
     public int score;
@@ -30,4 +32,13 @@ public struct ChartData
     public float percent;
     public bool completed;
     public int index;
+
+}
+[System.Serializable]
+public struct DecoData
+{
+    public ChartDeco obj;
+    public float delayFromLast;
+    public float speed;
+    public float mountainHeight;
 }

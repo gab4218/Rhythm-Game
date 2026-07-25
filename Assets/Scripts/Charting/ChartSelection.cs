@@ -29,12 +29,13 @@ public class ChartSelection : MonoBehaviour
             _score.text = myData.score.ToString();
             _name.text = myData.name;
         }
-        bool found = false;
-        if (chart != default && myData.percent <= 0)
+        //bool found = false;
+        if (chart != default)
         {
             myData = new ChartData
             {
                 notes = chart.notes,
+                deco = chart.deco,
                 name = chart.name,
                 song = chart.song,
                 completed = chart.completed,
@@ -43,28 +44,28 @@ public class ChartSelection : MonoBehaviour
                 percent = chart.percent
             };
             
-            foreach (ChartData d in ChartDataHolder.allCharts)
-            {
-                if (d.name.Equals(myData.name))
-                {
-                    myData = d;
-                    found = true;
-                    break;
-                }
-            }
-            if(!found) ChartDataHolder.allCharts.Add(myData);
+            //foreach (ChartData d in ChartDataHolder.allCharts)
+            //{
+            //    if (d.name.Equals(myData.name))
+            //    {
+            //        myData = d;
+            //        found = true;
+            //        break;
+            //    }
+            //}
+            //if(!found) ChartDataHolder.allCharts.Add(myData);
         }
 
-        if (!found)
-        {
-            foreach (ChartData d in ChartDataHolder.allCharts)
-            {
-                if (d.name.Equals(myData.name))
-                {
-                    myData = d;
-                }
-            }
-        }
+        //if (!found)
+        //{
+        //    foreach (ChartData d in ChartDataHolder.allCharts)
+        //    {
+        //        if (d.name.Equals(myData.name))
+        //        {
+        //            myData = d;
+        //        }
+        //    }
+        //}
 
         if (myData.name == ChartController.selectedChart.name && ChartController.selectedChart.percent > 0)
         {

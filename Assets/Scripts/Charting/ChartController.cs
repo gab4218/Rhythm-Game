@@ -15,6 +15,9 @@ public class ChartController : MonoBehaviour
 
     [SerializeField] private Transform _chartParent;
 
+    [SerializeField] private Material _mountainMaterial;
+
+    private float _height;
 
 
 
@@ -37,6 +40,7 @@ public class ChartController : MonoBehaviour
         EventManager.Subscribe(EventType.End, EndChart);
 
         StartCoroutine(SongStarter());
+        StartCoroutine(DecoReader());
         SoundSingleton.instance.SetMusic(selectedChart.song);
         _cr = StartCoroutine(ChartReader());
         RemoteConfigService.Instance.FetchCompleted += TSChange;
@@ -73,14 +77,48 @@ public class ChartController : MonoBehaviour
             note.transform.SetParent(_chartParent);
         }
 
-        while (SoundSingleton.instance.musicSource.time < selectedChart.song.length)
-        {
-            yield return null;
-        }
-        yield return new WaitForSecondsRealtime(1.5f);
+        yield return new WaitForSecondsRealtime(selectedChart.notes[selectedChart.notes.Length-1].noteSpeed > 5? 9.5f : 5.5f);
 
         EventManager.TriggerEvent(EventType.End, true);
 
+    }
+
+    private IEnumerator DecoReader()
+    {
+        float t = 0;
+        float scaler = 1f;
+
+        foreach (DecoData dData in selectedChart.deco)
+        {
+            t = 0;
+            while (t < dData.delayFromLast)
+            {
+                t += Time.deltaTime * scaler;
+                _mountainMaterial.SetFloat("_mountainHeight", Mathf.Lerp(_mountainMaterial.GetFloat("_mountainHeight"), _height, 1f - Mathf.Pow(0.2f, Time.deltaTime)));
+                if (PauseScreen.paused) scaler = 0; else scaler = 1;
+                yield return null;
+            }
+            if (dData.obj != null)
+            { 
+                var d = Instantiate(dData.obj, transform);
+                int r = Random.Range(0, 2);
+                float rand;
+                if (r == 0) rand = Random.Range(10f, 25f);
+                else rand = Random.Range(-10f, -25f);
+                d.transform.position = new Vector3(rand, -3.66f, GameManager.instance.lanes[0].position.z);
+                d.speed = dData.speed;
+            }
+            else
+            {
+                _height = dData.mountainHeight;
+            }
+        }
+        yield return new WaitForSecondsRealtime(selectedChart.deco[selectedChart.deco.Length - 1].speed > 5 ? 2f : (selectedChart.deco[selectedChart.deco.Length - 1].speed < 5 ? 8f : 4f));
+        while (_mountainMaterial.GetFloat("_mountainHeight") > 0.1)
+        {
+            _mountainMaterial.SetFloat("_mountainHeight", Mathf.Lerp(_mountainMaterial.GetFloat("_mountainHeight"), 0, 1f - Mathf.Pow(0.5f, Time.deltaTime)));
+            yield return null;
+        }
     }
 
     public void Death(params object[] paramContainer)
