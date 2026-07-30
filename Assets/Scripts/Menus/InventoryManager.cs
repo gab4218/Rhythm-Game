@@ -38,6 +38,7 @@ public class InventoryManager : MonoBehaviour
     public void SelectColor(Image col)
     {
         selectedColor = col.color;
+        ScreenManager.instance.OnClick(col.transform);
     }
     
 }

@@ -26,7 +26,7 @@ public class ShopEntry : MonoBehaviour
         _priceText.text = "Price: " + price;
     }
 
-    public void Buy()
+    public void Buy(Transform p)
     {
         MoneyManager.instance.Purchase(this);
         if (InventoryManager.unlockedCosmetics[item])
@@ -34,5 +34,6 @@ public class ShopEntry : MonoBehaviour
             Destroy(_priceText.gameObject);
             Destroy(this);
         }
+        ScreenManager.instance.OnClick(p);
     }
 }

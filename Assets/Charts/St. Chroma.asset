@@ -17,2554 +17,3192 @@ MonoBehaviour:
     lane: 0
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.25
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 1.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 2.5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 2.5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 2.5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 2.5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 2.5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 2.5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 3
     noteSpeed: 2.5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 2.5
     delayFromLast: 2.3
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 2.5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 1.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 1.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 2.5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 1
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 2.5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 2.5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 2.5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 2.5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 2.5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 2.5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 2.5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 3
     noteSpeed: 2.5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 2.5
     delayFromLast: 2.3
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 2.5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 1.7
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 2.5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.3
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 0
     noteSpeed: 2.5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 1.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 4.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 1
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 1
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 1
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 1.6
+    flair: 1
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 1
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 1
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 7
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 1
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 2.5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 4
     noteSpeed: 2.5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.9
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 5
     noteSpeed: 2.5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 1.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 2.5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 10
     delayFromLast: 0.15
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.05
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.1
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 10
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.6
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.5
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 2
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 3
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 1
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 0
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 1.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 1.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 1.2
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.2
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7611176117550716597, guid: e6a47cf666fb4e249bf43eed7d8ecee5, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 1238318771163108545, guid: da15b81e0e2f3624fb931594b84697e6, type: 3}
     lane: 4
     noteSpeed: 5
     delayFromLast: 0.8
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 5
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 6
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   - note: {fileID: 7041761379681199135, guid: e5fc3f282cfc9cc4b9d038ecb7d4fecd, type: 3}
     lane: 7
     noteSpeed: 5
     delayFromLast: 0.4
+    flair: 0
   deco:
   - obj: {fileID: 0}
     delayFromLast: 0

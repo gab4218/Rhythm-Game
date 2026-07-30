@@ -38,8 +38,9 @@ public class ShopManager : MonoBehaviour
         OnPriceChange?.Invoke();
     }
     
-    public void Inventory()
+    public void Inventory(Transform p)
     {
         ScreenManager.instance.Push("Inventory");
+        ScreenManager.instance.OnClick(p);
     }
 }

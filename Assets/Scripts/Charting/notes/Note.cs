@@ -25,10 +25,10 @@ public abstract class Note : MonoBehaviour
     }
 
 
-    protected void Update()
+    protected virtual void Update()
     {
         transform.position += transform.forward * speed * Time.deltaTime * 5f;
-        transform.up = Vector3.up;
+        //transform.up = Vector3.up;
     }
 
     protected virtual void OnTriggerEnter(Collider other)

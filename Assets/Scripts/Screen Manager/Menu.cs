@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Menu : MonoBehaviour
@@ -7,6 +8,7 @@ public class Menu : MonoBehaviour
     [SerializeField] private string _optionsName = "Options";
     [SerializeField] private string _shopName = "Shop";
     public static bool saved = false;
+    public static int selectedVisuals = 0;
 
     private void Awake()
     {
@@ -38,6 +40,12 @@ public class Menu : MonoBehaviour
         }
     }
 
+    public void SelectVisuals(TMP_Dropdown v)
+    {
+        selectedVisuals = v.value;
+        ScreenManager.instance.OnClick(v.transform);
+    }
+
     public void DeleteAll()
     {
         SaveManager.DeleteSaveData();
@@ -51,7 +59,16 @@ public class Menu : MonoBehaviour
 
     }
 
-    public void Options() => ScreenManager.instance.Push(_optionsName);
+    public void Options(Transform p)
+    {
+        ScreenManager.instance.Push(_optionsName);
+        ScreenManager.instance.OnClick(p);
 
-    public void Shop() => ScreenManager.instance.Push(_shopName);
+    }
+
+    public void Shop(Transform p)
+    {
+        ScreenManager.instance.Push(_shopName);
+        ScreenManager.instance.OnClick(p);
+    }
 }

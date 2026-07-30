@@ -9590,7 +9590,7 @@
     "m_DefaultRefNameVersion": 1,
     "m_RefNameGeneratedByDisplayName": "_mountainHeight",
     "m_DefaultReferenceName": "_mountainHeight",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_Height",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",

@@ -1,5 +1,8 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.VFX;
 
 public class ScreenManager : MonoBehaviour
 {
@@ -7,6 +10,9 @@ public class ScreenManager : MonoBehaviour
     public static ScreenManager instance;
 
     private Stack<IScreen> _stack = new();
+
+    [SerializeField] private VisualEffect _buttonVFX;
+    [SerializeField] private Image _rawImg;
 
     private void Awake()
     {
@@ -60,4 +66,25 @@ public class ScreenManager : MonoBehaviour
         }
     }
 
+    public void OnClick(Transform pos)
+    {
+        _rawImg.transform.position = pos.position;
+        StartCoroutine(ClickCR());
+    }
+
+    private IEnumerator ClickCR()
+    {
+        _rawImg.enabled = true;
+
+        _buttonVFX.SendEvent("Play");
+        float t = 0;
+
+        while(t < 1)
+        {
+            t += Time.deltaTime;
+            yield return null;
+        }
+        _rawImg.enabled = false;
+
+    }
 }

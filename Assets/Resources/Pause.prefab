@@ -950,10 +950,10 @@ MonoBehaviour:
       - m_Target: {fileID: 4564186430215876648}
         m_TargetAssemblyTypeName: PauseScreen, Assembly-CSharp
         m_MethodName: Resume
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 7703170483137515939}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1083,10 +1083,10 @@ MonoBehaviour:
       - m_Target: {fileID: 4564186430215876648}
         m_TargetAssemblyTypeName: PauseScreen, Assembly-CSharp
         m_MethodName: Options
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 3226921760470896525}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

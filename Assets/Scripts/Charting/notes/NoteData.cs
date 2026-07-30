@@ -7,4 +7,5 @@ public struct NoteData
     public int lane;
     public float noteSpeed;
     public float delayFromLast;
+    public bool flair;
 }

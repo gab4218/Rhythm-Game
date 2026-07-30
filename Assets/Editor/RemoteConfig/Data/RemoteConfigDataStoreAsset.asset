@@ -12,32 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"87006c50-82de-4f65-947e-0372a7648ec0\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"0e71c38d-6362-481f-99ff-10450e9244e0\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"DevMode\",\r\n      \"type\": \"bool\",\r\n     
-    \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"7937af6d-8de6-47ea-8355-0f6cd0209e00\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"a8b3f246-c889-45af-9637-46ba8b9b1405\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"BaseSkinCost\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"501e8425-caa7-4cd8-9f0f-e6401cd0beea\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"791d3f3a-acc0-44fb-9115-6af80e612843\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"ShowEditorButton\",\r\n      \"type\":
-    \"bool\",\r\n      \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
-    {\r\n      \"entityId\": \"8b63e5ca-f841-4d2f-b515-1421467ef569\"\r\n    },\r\n   
+    \"bool\",\r\n      \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"ef01f68e-9b57-4596-9ec4-74b48d8535ca\"\r\n    },\r\n   
     \"rs\": {\r\n      \"key\": \"PlaybackSpeed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 1.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"2c2213bd-ba04-44d6-a092-35b2c60044a4\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"1126856d-a029-44dd-b766-bb23b452ab3e\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"MirroredMobileControls\",\r\n      \"type\": \"bool\",\r\n      \"value\":
     false\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"87006c50-82de-4f65-947e-0372a7648ec0\"\r\n   
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"0e71c38d-6362-481f-99ff-10450e9244e0\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"DevMode\",\r\n      \"type\": \"bool\",\r\n     
-    \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"7937af6d-8de6-47ea-8355-0f6cd0209e00\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"a8b3f246-c889-45af-9637-46ba8b9b1405\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"BaseSkinCost\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"501e8425-caa7-4cd8-9f0f-e6401cd0beea\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"791d3f3a-acc0-44fb-9115-6af80e612843\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"ShowEditorButton\",\r\n      \"type\":
-    \"bool\",\r\n      \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
-    {\r\n      \"entityId\": \"8b63e5ca-f841-4d2f-b515-1421467ef569\"\r\n    },\r\n   
+    \"bool\",\r\n      \"value\": false\r\n    }\r\n  },\r\n  {\r\n    \"metadata\":
+    {\r\n      \"entityId\": \"ef01f68e-9b57-4596-9ec4-74b48d8535ca\"\r\n    },\r\n   
     \"rs\": {\r\n      \"key\": \"PlaybackSpeed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 1.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"2c2213bd-ba04-44d6-a092-35b2c60044a4\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"1126856d-a029-44dd-b766-bb23b452ab3e\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"MirroredMobileControls\",\r\n      \"type\": \"bool\",\r\n      \"value\":
     false\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"72a91fa6-31a2-4b9e-b50b-04a9d03019a9\",\r\n   

@@ -39,7 +39,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _DistortionSaturation: 0.392
-    - _DistortionStrength: 0.761402
+    - _DistortionStrength: 0.036806107
     - _Enabled: 0
     - _InversionStrength: 0
     - _InvertColors: 0

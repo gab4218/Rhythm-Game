@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class ScoreKeeper : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class ScoreKeeper : MonoBehaviour
     [SerializeField] private TMPro.TMP_Text _scoreText, _comboText, _multText, _percentText, _endScoreText, _endComboText, _endPercentText;
     [SerializeField] private UnityEngine.UI.Image _HighScoreIMG, _HighScoreEndIMG;
     [SerializeField] private GameObject _win, _lose;
+    [SerializeField] private Material _comboMat;
+    [SerializeField] private VisualEffect _comboVFX;
     
 
 
@@ -62,22 +65,62 @@ public class ScoreKeeper : MonoBehaviour
             StartCoroutine(HighScore());
         }
 
-        if (_combo > 30)
+        if (_combo > 30 && _mult < 4)
         {
             _mult = 4;
+            StartCoroutine(ComboStayCR());
+            _comboVFX.SendEvent("Play");
         }
-        else if (_combo > 20)
+        else if (_combo > 20 && _mult < 3)
         {
             _mult = 3;
+            StartCoroutine(ComboCR());
+            _comboVFX.SendEvent("Play");
         }
-        else if (_combo > 10)
+        else if (_combo > 10 && _mult < 2)
         {
             _mult = 2;
+            StartCoroutine(ComboCR());
+            _comboVFX.SendEvent("Play");
         }
 
         _multText.text = "x" + _mult.ToString();
 
     }
+
+    private IEnumerator ComboCR()
+    {
+        float t = 0;
+        
+        while (t < 1)
+        {
+            _comboMat.SetFloat("_Progress", t);
+            t += Time.deltaTime * 2f;
+            yield return null;
+        }
+        _comboMat.SetFloat("_Progress", 1);
+        while (t > 0)
+        {
+            _comboMat.SetFloat("_Progress", t);
+            t -= Time.deltaTime * 2f;
+            yield return null;
+        }
+        _comboMat.SetFloat("_Progress", 0); 
+    }
+
+    private IEnumerator ComboStayCR()
+    {
+        float t = 0;
+
+        while (t < 1)
+        {
+            _comboMat.SetFloat("_Progress", t);
+            t += Time.deltaTime * 2f;
+            yield return null;
+        }
+        _comboMat.SetFloat("_Progress", 1);
+    }
+
 
     private IEnumerator HighScore()
     {
@@ -123,6 +166,7 @@ public class ScoreKeeper : MonoBehaviour
         _comboText.text = "Streak: " + _combo.ToString();
         _percent = ((float)_hits) / _totalNotes;
         _percentText.text = _percent.ToString("0#.00%");
+        _comboMat.SetFloat("_Progress", 0);
     }
 
     private void Win(params object[] paramContainer)
@@ -149,6 +193,8 @@ public class ScoreKeeper : MonoBehaviour
         _endComboText.text = _maxCombo.ToString();
         _endPercentText.text = _percent.ToString("0#.00%");
         _endScoreText.text = _score.ToString();
+        _comboMat.SetFloat("_Progress", 0);
+
 
         MoneyManager.money += _score / 4;
 

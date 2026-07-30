@@ -44,7 +44,11 @@ public class PauseScreen : MonoBehaviour, IScreen
         Destroy(gameObject);
     }
 
-    public void Options() => ScreenManager.instance.Push(_optionsName);
+    public void Options(Transform p)
+    {
+        ScreenManager.instance.Push(_optionsName);
+        ScreenManager.instance.OnClick(p);
+    }
 
     public void Menu()
     {
@@ -53,7 +57,11 @@ public class PauseScreen : MonoBehaviour, IScreen
         SceneManager.LoadScene(_menuName);
     }
 
-    public void Resume() => ScreenManager.instance.Pop();
+    public void Resume(Transform p)
+    {
+        ScreenManager.instance.Pop();
+        ScreenManager.instance.OnClick(p);
+    }
 
     
     

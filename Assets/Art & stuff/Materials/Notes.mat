@@ -44,12 +44,12 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _alphaClip: 0.2
+    - _alphaClip: 0
     - _cutDefinition: 5
     - _cutDepth: 1.31
     - _cutDistance: 0.25
     - _distortionScale: 5
-    - _edgeSize: 0.07
+    - _edgeSize: 0.19
     - _fadeDistance: 4.55
     - _fadeLength: 3
     - _fadeSpeed: 1
@@ -57,7 +57,7 @@ Material:
     - _noiseScale: 25
     m_Colors:
     - _baseColor: {r: 0.12589, g: 0.17500106, b: 0.38679248, a: 1}
-    - _edgeColor: {r: 0, g: 0.1484747, b: 1, a: 0}
+    - _edgeColor: {r: 0, g: 0.14847466, b: 1, a: 1}
     - _fadeBoundsZ: {r: -20, g: -10, b: 0, a: 0}
     - _glowColor: {r: 1.8344319, g: 10.69081, b: 11.784834, a: 1}
     - _tiling: {r: 0.4, g: 0.4, b: 0, a: 0}
